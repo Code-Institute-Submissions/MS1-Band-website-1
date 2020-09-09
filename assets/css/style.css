@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* --------------------- Nav ----------------*/
+.logo-image {
+  height: 150px;
+  width: 150px;
+}
+
+nav {
+  height: 80px;
+}
+
+.nav-list-items {
+  font-size: 30px;
+  font-family: "Lobster", sans-serif;
+  color: #fafafa;
+}
+
+.nav-list-items:hover {
+  color: #e84610;
+}
+
+.navbar-collapse {
+    float: left;
+}
+
+.navbar-toggler {
+    float: left;
+    left: 50px;
+}
