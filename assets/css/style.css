@@ -1,8 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
+/* --------------------- Body ----------------*/
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex; justify-content: center;
+}
+
+body {
+  background-color: #21262e;
 }
 
 /* --------------------- Nav ----------------*/
@@ -26,38 +37,65 @@ nav {
 }
 
 .navbar-collapse {
-    float: left;
+  float: left;
 }
 
 .navbar-toggler {
-    float: left;
-    left: 50px;
+  float: left;
+  left: 50px;
 }
 
-
-
 /* --------------------- Footer ----------------*/
-.footer-style {
-    font-family: "lobster" , sans-serif;
-    background-color: #212529;
-    color: #fafafa;
+footer {
+    clear: both;
+}
 
+.footer-style {
+  font-family: "lobster", sans-serif;
+  background-color: #393e47;
+  color: #fafafa;
+  height: 90px;
+  text-align: center;
 }
 
 .footer-social-links {
-    font-size: 35px;
-    letter-spacing: 20px;
-    text-align: center;
-    color: #fafafa;
+  font-size: 35px;
+  letter-spacing: 20px;
+  text-align: center;
+  color: #fafafa;
+  padding: 10px;
 }
 
 .footer-social-links a {
-    color: #fafafa;
-    text-decoration: none;
-    vertical-align: middle;
+  color: #fafafa;
+  text-decoration: none;
+  vertical-align: middle;
 }
 
 .footer-social-links a:hover {
-    color: #5a0000;
+  color: #0a0a0a;
+}
+
+footer h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* --------------------- Home Articles ----------------*/
+.home-articles {
     
+    background-color:  #393e47;
+    margin: 10px;
+    align-items: center;
+    font-family: "lobster", sans-serif;
+    color: #fafafa;
+}
+
+/* --------------------- Carosel ----------------*/
+
+.carousel-item{
+    height: 400px;
+} 
+.carousel-item img{
+    height: 400px;
 }
