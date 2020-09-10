@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
 
 /* --------------------- Body ----------------*/
 * {
@@ -13,9 +15,14 @@
 }
 
 body {
-  background-color: #21262e;
+  background-color: black;
 }
 
+/* #21262e; */
+
+hr {
+    color: #fafafa;
+}
 /* --------------------- Nav ----------------*/
 .logo-image {
   height: 150px;
@@ -34,6 +41,7 @@ nav {
   font-size: 30px;
   font-family: "Lobster", sans-serif;
   color: #fafafa;
+  text-shadow: 2px 2px black;
 }
 
 .deftones-nav-items {
@@ -42,7 +50,19 @@ nav {
 }
 
 nav a {
-    background-color: #343a40;
+    background-color: rgba(52,58,64, .6);
+}
+
+/* -- idea from https://stackoverflow.com/questions/48946894/bootstrap4-navbar-underline/48946964 */
+.navbar-dark .navbar-nav li.active::after{
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  content: " ";
+  color: #fafafa;
+  border-bottom: 5px solid #fafafa;
 }
 
 /* --------------------- Footer ----------------*/
@@ -51,11 +71,15 @@ nav a {
     height: 110px;
 }
 
+footer {
+    border-top: 5px solid #fafafa;
+}
+
 .footer-style {
   font-family: "lobster", sans-serif;
   background-color: #393e47;
   color: #fafafa;
-  height: 90px;
+  height: 80px;
   text-align: center;
 }
 
@@ -86,18 +110,41 @@ footer h5 {
 .home-articles {
     
     background-color:  #393e47;
-    height: 400px;
     margin: 10px;
     text-align: center;
     font-family: "lobster", sans-serif;
     color: #fafafa;
     overflow-wrap: normal;
+    padding 5px;
 }
+
+.home-articles h3 {
+    padding-top: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+  
+.home-articles tbody {
+    color: #f9f9f9;
+    font-family: 'Long Cang', cursive;
+    font-size: 20px;
+}  
+
+.home-articles thead {
+    font-weight: 200;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: underline;
+    text-shadow: 1px 1px #fafafa;
+}  
+
 
 /* --------------------- Carosel ----------------*/
 
 .carousel-item{
     height: 400px;
+    margin-bottom: 20px;
 } 
 .carousel-item img{
     height: 400px;
