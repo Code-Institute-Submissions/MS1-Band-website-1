@@ -143,11 +143,13 @@ footer h5 {
 /* --------------------- Carosel ----------------*/
 
 .carousel-item{
-    height: 400px;
+    height: 60vh;
     margin-bottom: 20px;
 } 
 .carousel-item img{
-    height: 400px;
+    height: 100%;
+    object-fit:cover;
+    object-position:center;
 }
 
 .carousel-caption {
@@ -178,7 +180,8 @@ footer h5 {
 
 /* -------------------- Media Queries -----------*/
 
-/* ------- code from user akhilesh on https://webriti.com/support/discussion/4804/move-hamburger-menu-on-mobile-to-left-corner ------*/
+/* ------- code from user akhilesh on https://webriti.com/support/discussion/4804/move-hamburger-menu-on-mobile-to-left-corner 
+   ------------- It doesnt do what I thought but I really like the effect of the white bar under the navbar             ------*/
 @media only screen and (max-width: 480px) and (min-width: 200px) { 
 .navbar-toggle {
     float: left;
