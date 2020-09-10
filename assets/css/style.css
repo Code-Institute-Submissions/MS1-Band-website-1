@@ -20,6 +20,10 @@ body {
 .logo-image {
   height: 150px;
   width: 150px;
+  /* - code for circle outline from user Heraldmonkey at https://stackoverflow.com/questions/5394116/outline-radius */
+  border: #fafafa solid 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 2px #fafafa inset;
 }
 
 nav {
@@ -32,22 +36,19 @@ nav {
   color: #fafafa;
 }
 
-.nav-list-items:hover {
-  color: #e84610;
+.deftones-nav-items {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.navbar-collapse {
-  float: left;
-}
-
-.navbar-toggler {
-  float: left;
-  left: 50px;
+nav a {
+    background-color: #343a40;
 }
 
 /* --------------------- Footer ----------------*/
-footer {
+.clear {
     clear: both;
+    height: 110px;
 }
 
 .footer-style {
@@ -85,10 +86,12 @@ footer h5 {
 .home-articles {
     
     background-color:  #393e47;
+    height: 400px;
     margin: 10px;
-    align-items: center;
+    text-align: center;
     font-family: "lobster", sans-serif;
     color: #fafafa;
+    overflow-wrap: normal;
 }
 
 /* --------------------- Carosel ----------------*/
@@ -98,4 +101,16 @@ footer h5 {
 } 
 .carousel-item img{
     height: 400px;
+}
+
+/* -------------------- Media Queries -----------*/
+
+/* ------- code from user akhilesh on https://webriti.com/support/discussion/4804/move-hamburger-menu-on-mobile-to-left-corner ------*/
+@media only screen and (max-width: 480px) and (min-width: 200px) { 
+.navbar-toggle {
+    float: left;
+    left: 10px;
+    top: -87px;
+
+}
 }
