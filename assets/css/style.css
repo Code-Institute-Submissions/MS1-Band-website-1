@@ -150,6 +150,32 @@ footer h5 {
     height: 400px;
 }
 
+.carousel-caption {
+ background-color: rgba(52,58,64, .6);
+}
+
+.carousel-caption h5 {
+    font-family: "lobster", sans-serif;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.carousel-caption p {
+    font-family: "Long Cang", sans-serif;
+    color: #fafafa;
+    font-size: 30px;
+}
+
+.carousel-caption .btn {
+    font-family: "Long Cang", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
 /* -------------------- Media Queries -----------*/
 
 /* ------- code from user akhilesh on https://webriti.com/support/discussion/4804/move-hamburger-menu-on-mobile-to-left-corner ------*/
