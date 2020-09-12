@@ -31,6 +31,8 @@ hr {
   border: #fafafa solid 5px;
   border-radius: 10px;
   box-shadow: 0px 0px 0px 2px #fafafa inset;
+ 
+  
 }
 
 nav {
@@ -49,12 +51,16 @@ nav {
   margin-right: 50px;
 }
 
+
 nav a {
   background-color: rgba(52, 58, 64, 0.6);
 }
 
+
+
+
 /* -- idea from https://stackoverflow.com/questions/48946894/bootstrap4-navbar-underline/48946964 */
-.navbar-dark .navbar-nav li.active::after {
+.navbar-dark .navbar-nav li.active::after{
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -65,10 +71,6 @@ nav a {
   border-bottom: 5px solid #fafafa;
 }
 
-.hamburger-icon {
-    float: left;
-    top: 30px;
-}
 
 /* --------------------- Footer ----------------*/
 .clear {
@@ -78,6 +80,7 @@ nav a {
 
 footer {
   border-top: 5px solid #fafafa;
+
 }
 
 .footer-style {
@@ -106,10 +109,7 @@ footer {
   color: #0a0a0a;
 }
 
-footer h5 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
+
 
 /* --------------------- Home Articles ----------------*/
 .home-articles {
@@ -198,4 +198,6 @@ footer h5 {
   font-size: 25px;
 }
 
-/* -------------------- Media Queries -----------*/
+/* -------------------- hover css from https://ianlunn.github.io/Hover/ -----------*/
+
+
