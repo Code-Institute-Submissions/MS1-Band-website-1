@@ -140,6 +140,25 @@ footer h5 {
 }  
 
 
+
+.home-articles .btn {
+    font-family: "Long Cang", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 25px; 
+    margin-top: 15px;
+    
+}
+
+
+.merch-image {
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/logo.jpg") no-repeat;
+    outline: solid 2px #fafafa; 
+    margin-top: 20px;
+    
+}
 /* --------------------- Carosel ----------------*/
 
 .carousel-item{
