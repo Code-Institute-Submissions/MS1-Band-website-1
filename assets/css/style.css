@@ -20,7 +20,15 @@ hr {
   color: #fafafa;
 }
 
+.top-row {
+    margin-top: 60px;
+}
 
+.container {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
 
 /* --------------------- Nav ----------------*/
 .logo-image {
@@ -252,3 +260,25 @@ footer {
 /* -------------------- hover css from https://ianlunn.github.io/Hover/ -----------*/
 
 
+
+
+
+/* -------------------- Videos -----------*/
+
+.player-frame {
+margin: 20px;    
+height: 325px;
+width: 570px;
+background-color: #393e47;
+padding: 5px;
+border-top: 5px solid #fafafa;
+border-bottom: 5px solid #fafafa;
+
+
+}
+
+.player-frame iframe {
+   display: block;
+   margin: 0 auto;
+   padding: 5px;
+}
