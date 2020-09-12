@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&display=swap");
 
 /* --------------------- Body ----------------*/
 * {
@@ -11,7 +10,8 @@
 .container {
   margin: 0;
   padding: 0;
-  display: flex; justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 /* #21262e; */
 
 hr {
-    color: #fafafa;
+  color: #fafafa;
 }
 /* --------------------- Nav ----------------*/
 .logo-image {
@@ -38,23 +38,23 @@ nav {
 }
 
 .nav-list-items {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Lobster", sans-serif;
   color: #fafafa;
   text-shadow: 2px 2px black;
 }
 
 .deftones-nav-items {
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 nav a {
-    background-color: rgba(52,58,64, .6);
+  background-color: rgba(52, 58, 64, 0.6);
 }
 
 /* -- idea from https://stackoverflow.com/questions/48946894/bootstrap4-navbar-underline/48946964 */
-.navbar-dark .navbar-nav li.active::after{
+.navbar-dark .navbar-nav li.active::after {
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -65,14 +65,19 @@ nav a {
   border-bottom: 5px solid #fafafa;
 }
 
+.hamburger-icon {
+    float: left;
+    top: 30px;
+}
+
 /* --------------------- Footer ----------------*/
 .clear {
-    clear: both;
-    height: 110px;
+  clear: both;
+  height: 110px;
 }
 
 footer {
-    border-top: 5px solid #fafafa;
+  border-top: 5px solid #fafafa;
 }
 
 .footer-style {
@@ -108,104 +113,89 @@ footer h5 {
 
 /* --------------------- Home Articles ----------------*/
 .home-articles {
-    
-    background-color:  #393e47;
-    margin: 10px;
-    text-align: center;
-    font-family: "lobster", sans-serif;
-    color: #fafafa;
-    overflow-wrap: normal;
-    padding 5px;
+  background-color: #393e47;
+  margin: 10px;
+  text-align: center;
+  font-family: "lobster", sans-serif;
+  color: #fafafa;
+  overflow-wrap: normal;
+  border-top: 5px solid #fafafa;
+  border-bottom: 5px solid #fafafa;
+  text-shadow: 2px 2px black;
+
 }
 
 .home-articles h3 {
-    padding-top: 10px;
-    font-size: 40px;
-    text-decoration: underline;
+  padding-top: 10px;
+  font-size: 40px;
+  text-decoration: underline;
 }
-  
+
 .home-articles tbody {
-    color: #f9f9f9;
-    font-family: 'Long Cang', cursive;
-    font-size: 20px;
-}  
+  color: #f9f9f9;
+  font-family: "Long Cang", cursive;
+  font-size: 20px;
+}
 
 .home-articles thead {
-    font-weight: 200;
-    color: black;
-    text-transform: uppercase;
-    font-size: 20px;
-    text-decoration: underline;
-    text-shadow: 1px 1px #fafafa;
-}  
-
-
-
-.home-articles .btn {
-    font-family: "Long Cang", sans-serif;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 25px; 
-    margin-top: 15px;
-    
+  font-weight: 200;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: underline;
+  text-shadow: 1px 1px #fafafa;
 }
 
+.home-articles .btn {
+  font-family: "Long Cang", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 25px;
+  margin-top: 15px;
+}
 
 .merch-image {
-    width: 100%;
-    height: 350px;
-    background-image: url("../images/logo.jpg") no-repeat;
-    outline: solid 2px #fafafa; 
-    margin-top: 20px;
-    
+  width: 100%;
+  height: 350px;
+  background-image: url("../images/logo.jpg") no-repeat;
+  outline: solid 2px #fafafa;
+  margin-top: 20px;
 }
 /* --------------------- Carosel ----------------*/
 
-.carousel-item{
-    height: 60vh;
-    margin-bottom: 20px;
-} 
-.carousel-item img{
-    height: 100%;
-    object-fit:cover;
-    object-position:center;
+.carousel-item {
+  height: 60vh;
+  margin-bottom: 20px;
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .carousel-caption {
- background-color: rgba(52,58,64, .6);
+  background-color: rgba(52, 58, 64, 0.6);
 }
 
 .carousel-caption h5 {
-    font-family: "lobster", sans-serif;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 40px;
-    text-decoration: underline;
+  font-family: "lobster", sans-serif;
+  color: #fafafa;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 .carousel-caption p {
-    font-family: "Long Cang", sans-serif;
-    color: #fafafa;
-    font-size: 30px;
+  font-family: "Long Cang", sans-serif;
+  color: #fafafa;
+  font-size: 30px;
 }
 
 .carousel-caption .btn {
-    font-family: "Long Cang", sans-serif;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 25px;
+  font-family: "Long Cang", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 25px;
 }
-
 
 /* -------------------- Media Queries -----------*/
-
-/* ------- code from user akhilesh on https://webriti.com/support/discussion/4804/move-hamburger-menu-on-mobile-to-left-corner 
-   ------------- It doesnt do what I thought but I really like the effect of the white bar under the navbar             ------*/
-@media only screen and (max-width: 480px) and (min-width: 200px) { 
-.navbar-toggle {
-    float: left;
-    left: 10px;
-    top: -87px;
-
-}
-}

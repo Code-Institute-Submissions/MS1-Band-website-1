@@ -20,10 +20,18 @@
   </head>
 
   <body>
-    <!--Navbar *Code from user Zim on Stack overflow https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items-->
+    <!--Navbar *Code from user Zim on Stack overflow https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items--> 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+     <button
+          class="navbar-toggler hamburger-icon"
+          type="button"
+          data-toggle="collapse"
+          data-target=".dual-collapse2"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
       <div
-        class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0"
+        class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-1 order-lg-0"
       >
         <ul class="navbar-nav ml-auto text-center nav-list-items">
           <li class="nav-item active deftones-nav-items">
@@ -34,21 +42,13 @@
           </li>
         </ul>
       </div>
-      <div class="mx-auto my-2 order-0 order-md-1 position-relative">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target=".dual-collapse2"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="mx-auto my-2 order-0 order-md-0 order-lg-1 position-relative">
         <a class="mx-auto" href="index.html">
           <img src="assets/images/logo.jpg" class="rounded-circle logo-image" />
         </a>
       </div>
       <div
-        class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2"
+        class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2 order-lg-2"
       >
         <ul class="navbar-nav mr-auto text-center nav-list-items">
           <li class="nav-item deftones-nav-items">
@@ -188,9 +188,9 @@
         </div>
         <div class="col home-articles">
           <h3>Band Highlights:</h3>
-          <p>gbhdfhfdshfghgshdhngshgsxdhfn</p>  
+          <p>gbhdfhfdshfghgshdhngshgsxdhfn</p>
         </div>
-        <div class="col home-articles">
+        <div class="col home-articles d-none d-sm-none d-md-block">
           <h3>New Merch Available!</h3>
 
           <img
@@ -198,7 +198,8 @@
             src="assets/images/merch.jpg"
             alt="Merchendise"
           />
-          <button type="button sign-up-button" class="btn btn-warning"> 
+          <button type="button sign-up-button" class="btn btn-warning">
+            <span class="sr-only">Order Now!</span>
             Order Now!
           </button>
         </div>
@@ -213,23 +214,27 @@
           <ul class="list-inline footer-social-links">
             <li class="list-inline-item">
               <a href="http://www.instagram.com/deftones" target="_blank">
-                <i class="fab fa-instagram"></i
-              ></a>
+                <i class="fab fa-instagram"></i>
+                <span class="sr-only">Instagram</span></a
+              >
             </li>
             <li class="list-inline-item">
               <a href="http://www.facebook.com/deftones" target="_blank">
                 <i class="fab fa-facebook-square"></i
-              ></a>
+                ><span class="sr-only">Facebook</span></a
+              >
             </li>
             <li class="list-inline-item">
               <a href="http://www.spotify.com/deftones" target="_blank">
                 <i class="fab fa-spotify"></i
-              ></a>
+                ><span class="sr-only">Spotify</span></a
+              >
             </li>
             <li class="list-inline-item">
               <a href="http://www.twitter.com/deftones" target="_blank">
                 <i class="fab fa-twitter"></i
-              ></a>
+                ><span class="sr-only">Twitter</span></a
+              >
             </li>
           </ul>
         </div>
