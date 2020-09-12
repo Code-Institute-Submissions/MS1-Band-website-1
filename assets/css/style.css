@@ -158,7 +158,8 @@ footer {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 0px;
+  padding-top: 5px;
 }
 
 .merch-image {
@@ -194,7 +195,7 @@ footer {
     font-size: 20px;
     margin-top: 20px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 2px solid #fafafa;
     border-top: 2px solid #fafafa;
 }
@@ -227,6 +228,8 @@ footer {
   font-family: "Long Cang", sans-serif;
   color: #fafafa;
   font-size: 30px;
+  line-height: 25px;
+  padding: 10px;
 }
 
 .carousel-caption .btn {
@@ -234,6 +237,16 @@ footer {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 25px;
+}
+
+.stream-links a {
+    font-size: 50px;
+    color: #fafafa;
+    margin: 5px 50px 5px 50px;
+}
+
+.stream-links a:hover {
+    color:  #ffc107;
 }
 
 /* -------------------- hover css from https://ianlunn.github.io/Hover/ -----------*/
