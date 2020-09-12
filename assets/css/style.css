@@ -168,11 +168,42 @@ footer {
   outline: solid 2px #fafafa;
   margin-top: 20px;
 }
+
+.home-articles article h3 {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.home-articles p {
+    font-family: "long Cang", sans-serif;
+    font-size: 20px;
+}
+
+.home-articles .border-ruler {
+    border-bottom: 2px solid #fafafa;
+    border-top: 2px solid #fafafa;
+}
+
+.home-articles article p a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.home-articles .border-ruler-merch {
+    font-family: "long Cang", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fafafa;
+    border-top: 2px solid #fafafa;
+}
 /* --------------------- Carosel ----------------*/
 
 .carousel-item {
   height: 60vh;
   margin-bottom: 20px;
+  margin-top: 5px;
 }
 .carousel-item img {
   height: 100%;
