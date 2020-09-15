@@ -7,9 +7,6 @@
   padding: 0;
 }
 
-
-
-
 body {
   background-color: black;
 }
@@ -21,13 +18,13 @@ hr {
 }
 
 .top-row {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .container {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 
 /* --------------------- Nav ----------------*/
@@ -38,8 +35,6 @@ hr {
   border: #fafafa solid 5px;
   border-radius: 10px;
   box-shadow: 0px 0px 0px 2px #fafafa inset;
- 
-  
 }
 
 nav {
@@ -59,33 +54,15 @@ nav {
   margin-right: 50px;
 }
 
-
 nav a {
   background-color: rgba(52, 58, 64, 0.6);
- 
-  
-  
 }
 
 .navbar-toggler {
-    float: left;
-    top: 50px;
-    left: 20px;
+  float: left;
+  top: 50px;
+  left: 20px;
 }
-
-
-/* -- idea from https://stackoverflow.com/questions/48946894/bootstrap4-navbar-underline/48946964 
-.navbar-dark .navbar-nav li.active::after{
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  content: " ";
-  color: #fafafa;
-  border-bottom: 5px solid #fafafa;
-}
-*/
 
 /* --------------------- Footer ----------------*/
 .clear {
@@ -95,7 +72,6 @@ nav a {
 
 footer {
   border-top: 5px solid #fafafa;
-
 }
 
 .footer-style {
@@ -124,8 +100,6 @@ footer {
   color: #0a0a0a;
 }
 
-
-
 /* --------------------- Home Articles ----------------*/
 .home-articles {
   background-color: #393e47;
@@ -137,7 +111,6 @@ footer {
   border-top: 5px solid #fafafa;
   border-bottom: 5px solid #fafafa;
   text-shadow: 2px 2px black;
-
 }
 
 .home-articles h3 {
@@ -167,6 +140,7 @@ footer {
   font-weight: 800;
   font-size: 25px;
   margin-top: 0px;
+  margin-bottom: 10px;
   padding-top: 5px;
 }
 
@@ -179,34 +153,130 @@ footer {
 }
 
 .home-articles article h3 {
-    font-size: 25px;
-    text-decoration: none;
+  font-size: 25px;
+  text-decoration: none;
 }
 
 .home-articles p {
-    font-family: "long Cang", sans-serif;
-    font-size: 20px;
+  font-family: "long Cang", sans-serif;
+  font-size: 20px;
 }
 
 .home-articles .border-ruler {
-    border-bottom: 2px solid #fafafa;
-    border-top: 2px solid #fafafa;
+  border-bottom: 2px solid #fafafa;
+  border-top: 2px solid #fafafa;
 }
 
 .home-articles article p a {
-    text-decoration: none;
-    color: #ffc107;
+  text-decoration: none;
+  color: #ffc107;
 }
 
 .home-articles .border-ruler-merch {
-    font-family: "long Cang", sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #fafafa;
-    border-top: 2px solid #fafafa;
+  font-family: "long Cang", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fafafa;
+  border-top: 2px solid #fafafa;
 }
+
+/* --------------------- Home Albums ----------------*/
+
+.album-style {
+  background-color: #393e47;
+  border-bottom: 5px solid #fafafa;
+  border-top: 5px solid #fafafa;
+  height: 300px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.album-cover-image {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+
+
+/* ----------- Flip cards home - Code used from from w3 Schools------------------*/
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  padding: 2px;
+  
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  outline: 2px solid #fafafa;
+  margin: 2px;
+  height: 97%;
+ 
+  
+}
+
+.flip-card-back h5 {
+    font-family: "lobster", sans-serif;
+    text-align: center;
+    font-size: 24px;
+
+}
+.flip-card-back p {
+    font-family: "Long Cang", sans-serif;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.stream-links-album-cards a {
+    font-size: 50px;
+    color: #fafafa;
+    margin: 5px;
+        
+}
+
+.stream-links-album-cards a:hover {
+  color: #ffc107;
+}
+
 /* --------------------- Carosel ----------------*/
 
 .carousel-item {
@@ -248,37 +318,31 @@ footer {
 }
 
 .stream-links a {
-    font-size: 50px;
-    color: #fafafa;
-    margin: 5px 50px 5px 50px;
+  font-size: 50px;
+  color: #fafafa;
+  margin: 5px 50px 5px 50px;
 }
 
 .stream-links a:hover {
-    color:  #ffc107;
+  color: #ffc107;
 }
 
 /* -------------------- hover css from https://ianlunn.github.io/Hover/ -----------*/
 
-
-
-
-
 /* -------------------- Videos -----------*/
 
 .player-frame {
-margin: 20px;    
-height: 325px;
-width: 570px;
-background-color: #393e47;
-padding: 5px;
-border-top: 5px solid #fafafa;
-border-bottom: 5px solid #fafafa;
-
-
+  margin: 20px;
+  height: 325px;
+  width: 570px;
+  background-color: #393e47;
+  padding: 5px;
+  border-top: 5px solid #fafafa;
+  border-bottom: 5px solid #fafafa;
 }
 
 .player-frame iframe {
-   display: block;
-   margin: 0 auto;
-   padding: 5px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
 }
