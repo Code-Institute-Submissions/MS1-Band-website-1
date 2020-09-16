@@ -236,8 +236,6 @@ footer {
   color: black;
 }
 
-
-
 .flip-card-back {
   background-color: black;
   color: white;
@@ -365,16 +363,61 @@ footer {
 
 .player-frame-spotify {
   margin: 10px 20px 10px 20px;
-  width:100%;
+  width: 100%;
   background-color: black;
   border-top: 5px solid #fafafa;
   border-bottom: 5px solid #fafafa;
   align-items: center;
   text-align: center;
-  
 }
 
 .player-frame-spotify iframe {
-    width: 100%;
-    padding: 5px;
+  width: 100%;
+  padding: 5px;
 }
+
+/* ------------------           Booking content ---------- */
+
+.fan-list-style {
+  background-color: #393e47;
+  margin: 10px;
+  text-align: center;
+  font-family: "lobster", sans-serif;
+  color: #fafafa;
+  overflow-wrap: normal;
+  border-top: 5px solid #fafafa;
+  border-bottom: 5px solid #fafafa;
+  text-shadow: 2px 2px black;
+}
+
+.fan-list-style form {
+  padding: 10px;
+}
+
+.form-check {
+  text-align: left;
+}
+
+.fan-list-style .btn {
+  font-family: "Long Cang", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.form-check-label {
+  font-family: "Long Cang", sans-serif;
+  font-size: 20px;
+}
+
+.form-check a {
+  text-decoration: none;
+  color: #ffc107;
+}
+
+.form-check-input {
+    color: #ffc107;
+}
+
+
