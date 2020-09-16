@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-------------------- hover css from https://ianlunn.github.io/Hover/ -----------> 
+    <!-------------------- hover css from https://ianlunn.github.io/Hover/ ----------->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
@@ -26,7 +26,7 @@
     />
   </head>
 
-<body> 
+  <body>
     <!--Navbar *Code from user Zim on Stack overflow https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items-->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -71,39 +71,418 @@
         </ul>
       </div>
     </nav>
-    <!----                    You tube video    ---->        
- <div class="container-fluid">                   
-    <div class="row top-row"> 
-      <div class="col player-frame">  
-      <div>   
-       <iframe
-            width="560"
-            height="349"
-            src="https://www.youtube.com/embed/KUDbj0oeAj0"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-             
-          
+    <!----                    You tube video    ---->
+    <div class="container-fluid">
+      <div class="row top-row">
+        <div class="col player-frame">
+          <div>
+            <iframe
+              width="560"
+              height="349"
+              src="https://www.youtube.com/embed/KUDbj0oeAj0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
-      
-       </div>  
-       
-    </div>
-    <div class="row">  
-     <div class="col-12 btn-col"> 
-       <button type="button" class="btn btn-warning hvr-grow"> <a href="http://www.youtube.com/deftones" target="blank">Watch More Videos!</a> </button>
-       </div>
-    </div>
- </div>
+      <div class="row">
+        <div class="col-12 btn-col">
+          <button type="button" class="btn btn-warning hvr-grow">
+            <a href="http://www.youtube.com/deftones" target="blank"
+              >Watch More Videos!</a
+            >
+          </button>
+        </div>
+      </div>
 
-<!----                   spotify           ---->
-      <div class="container-fluid">
-      <div class="col">
-      
+      <!----                   spotify           ---->
+
+      <div class="row">
+        <div class="col player-frame-spotify">   
+          <iframe
+            src="https://open.spotify.com/embed/artist/6Ghvu1VvMGScGpOUJBAHNH"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
       </div>
+<!--          Album Cover Flip Cards              -->  
+      <div class="row">
+        <div class="col d-none d-sm-none d-md-none d-lg-block album-style">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/images/albums/ohms-cover.jpg"
+                  alt="Ohms"
+                  class="album-cover-image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h5>"OHMS"</h5>
+                <p>
+                  Listen to the single OHMS from the upcoming album of the same
+                  name.
+                </p>
+                <div class="stream-links-album-cards">
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.youtube.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.spotify.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-spotify"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.applemusic.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-itunes"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-sm-none d-md-none d-lg-block album-style">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/images/albums/adrenaline-cover.jpg"
+                  alt="Adrenaline"
+                  class="album-cover-image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h5>"Adrenaline"</h5>
+                <p>
+                  Listen to Deftones debut album Adrenaline.
+                </p>
+                <div class="stream-links-album-cards">
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.youtube.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.spotify.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-spotify"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.applemusic.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-itunes"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-sm-none d-md-none d-lg-block album-style">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/images/albums/fur-cover.jpg"
+                  alt="Around The Fur"
+                  class="album-cover-image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h5>"Around The Fur"</h5>
+                <p>
+                  Around the Fur is deftones second studio album and Vocalist
+                  Chino Moreno's personal favourite.
+                </p>
+                <div class="stream-links-album-cards">
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.youtube.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.spotify.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-spotify"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.applemusic.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-itunes"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-sm-none d-md-none d-lg-block album-style">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/images/albums/pony-cover.jpg"
+                  alt="White Pony"
+                  class="album-cover-image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h5>"White Pony"</h5>
+                <p>
+                  White Pony is the album Deftones broke away from the
+                  "Nu-Metal" label which the band hated.
+                </p>
+                <div class="stream-links-album-cards">
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.youtube.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.spotify.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-spotify"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.applemusic.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-itunes"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="row">
+        <div class="col d-none d-sm-none d-md-none d-lg-block album-style">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/images/albums/deftones-cover.jpg"
+                  alt="Deftones"
+                  class="album-cover-image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h5>"Deftones"</h5>
+                <p>
+                  The selftitled album blends melodic sections with heavy sonic
+                  tantrums.
+                </p>
+                <div class="stream-links-album-cards">
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.youtube.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.spotify.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-spotify"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.applemusic.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-itunes"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-sm-none d-md-none d-lg-block album-style">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/images/albums/wrist-cover.jpg"
+                  alt="Saturday Night Wrist"
+                  class="album-cover-image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h5>"Saturday Night Wrist"</h5>
+                <p>
+                  The last album to feature bassist Chi Cheng before his car
+                  accident in 2008, which led to his death.
+                </p>
+                <div class="stream-links-album-cards">
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.youtube.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.spotify.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-spotify"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.applemusic.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-itunes"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-sm-none d-md-none d-lg-block album-style">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/images/albums/eyes-cover.jpg"
+                  alt="Diamond Eyes"
+                  class="album-cover-image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h5>"Diamond Eyes"</h5>
+                <p>
+                  The first album with new bassist Sergio Vega.
+                </p>
+                <div class="stream-links-album-cards">
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.youtube.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.spotify.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-spotify"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.applemusic.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-itunes"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-sm-none d-md-none d-lg-block album-style">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/images/albums/yokan-cover.jpg"
+                  alt="Koi No Yokan"
+                  class="album-cover-image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h5>"White Pony"</h5>
+                <p>
+                  The title Koi No Yokan is a phrase from Japanese language
+                  "恋の予感", meaning "premonition of love".
+                </p>
+                <div class="stream-links-album-cards">
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.youtube.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.spotify.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-spotify"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                  <a
+                    class="hvr-pulse-grow"
+                    href="http://www.applemusic.com/deftones"
+                    target="_blank"
+                  >
+                    <i class="fab fa-itunes"></i
+                    ><span class="sr-only">Twitter</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--- Footer with ideas from resume mini project-->
     <br /><br /><br /><br />
@@ -136,7 +515,7 @@
               >
             </li>
             <li class="list-inline-item hvr-pulse">
-              <a href="http://www.applemusic.com/deftones" target="_blank">    
+              <a href="http://www.applemusic.com/deftones" target="_blank">
                 <i class="fab fa-itunes"></i
                 ><span class="sr-only">Twitter</span></a
               >

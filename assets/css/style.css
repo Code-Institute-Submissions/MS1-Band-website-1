@@ -236,6 +236,8 @@ footer {
   color: black;
 }
 
+
+
 .flip-card-back {
   background-color: black;
   color: white;
@@ -253,7 +255,7 @@ footer {
 .flip-card-back p {
   font-family: "Long Cang", sans-serif;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .stream-links-album-cards a {
@@ -294,7 +296,7 @@ footer {
 .carousel-caption p {
   font-family: "Long Cang", sans-serif;
   color: #fafafa;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 25px;
   padding: 10px;
 }
@@ -320,6 +322,7 @@ footer {
 
 /* -------------------- Videos -----------*/
 
+/* -- Fluid width video trick from https://css-tricks.com/fluid-width-video/ -- */
 .player-frame {
   margin: 20px;
   width: 530px;
@@ -332,7 +335,6 @@ footer {
   padding-bottom: 56.25%;
   height: 0;
 }
-
 
 .player-frame iframe {
   display: block;
@@ -355,8 +357,24 @@ footer {
 }
 
 .btn-col {
-    text-align: center;
-    align-items: center;
-    background-color: black;
-    height: 60px;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+}
+
+.player-frame-spotify {
+  margin: 10px 20px 10px 20px;
+  width:100%;
+  background-color: black;
+  border-top: 5px solid #fafafa;
+  border-bottom: 5px solid #fafafa;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.player-frame-spotify iframe {
+    width: 100%;
+    padding: 5px;
 }
