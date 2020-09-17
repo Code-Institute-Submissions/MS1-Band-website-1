@@ -121,17 +121,17 @@ footer {
 
 .home-articles tbody {
   color: #f9f9f9;
-  font-family: "Long Cang", cursive;
+  font-family: "Long Cang", cursive; 
   font-size: 20px;
 }
 
 .home-articles thead {
   font-weight: 200;
-  color: black;
+  color: #fafafa;
   text-transform: uppercase;
   font-size: 20px;
   text-decoration: underline;
-  text-shadow: 1px 1px #fafafa;
+  text-shadow: 1px 1px black;
 }
 
 .home-articles .btn {
@@ -147,7 +147,7 @@ footer {
 .merch-image {
   width: 100%;
   height: 350px;
-  background-image: url("../images/logo.jpg") no-repeat;
+  background-image: url("../images/logo.jpg");
   outline: solid 2px #fafafa;
   margin-top: 20px;
 }
@@ -452,7 +452,7 @@ footer {
 /* ---------- Responsive google maps code from https://blog.duda.co/responsive-google-maps-for-your-website --*/
 .map-responsive {
   overflow: hidden;
-  padding-bottom: 56, 25%;
+  padding-bottom: 56.25%;
   position: relative;
   height: 300px;
 }
