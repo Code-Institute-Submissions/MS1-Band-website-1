@@ -388,6 +388,7 @@ footer {
   border-top: 5px solid #fafafa;
   border-bottom: 5px solid #fafafa;
   text-shadow: 2px 2px black;
+  min-height: 470px;
 }
 
 .fan-list-style form {
@@ -414,4 +415,55 @@ footer {
 .form-check a {
   text-decoration: none;
   color: #ffc107;
+}
+
+.fan-list-style p {
+  font-family: "Long Cang", sans-serif;
+  font-size: 20px;
+}
+
+.fan-list-style h3 {
+  padding-top: 10px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.fan-list-style h4 {
+  font-size: 20px;
+}
+
+.fan-list-style a {
+  font-family: "Long Cang", sans-serif;
+  color: #ffc107;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.fan-list-style-image {
+    margin: 10px 0px 20px 0px;
+    width: 100%    
+}
+
+.fan-list-style-image img {
+  object-position: center;
+  width: 100%;
+  height: auto;
+}
+/* ---------- Responsive google maps code from https://blog.duda.co/responsive-google-maps-for-your-website --*/
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56, 25%;
+  position: relative;
+  height: 300px;
+}
+
+.map-responsive iframe {
+  left: 20px;
+  top: 20px;
+  height: 80%;
+  width: 90%;
+  position: absolute;
+  text-align: center;
+  margin: 5px;
+  box-shadow: 10px 10px black;
 }

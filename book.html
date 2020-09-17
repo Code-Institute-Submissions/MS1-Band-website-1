@@ -42,10 +42,10 @@
         class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-1 order-lg-0"
       >
         <ul class="navbar-nav ml-auto text-center nav-list-items">
-          <li class="nav-item  deftones-nav-items">
+          <li class="nav-item deftones-nav-items">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item  deftones-nav-items">
+          <li class="nav-item deftones-nav-items">
             <a class="nav-link" href="media.html">Media</a>
           </li>
         </ul>
@@ -70,42 +70,154 @@
           </li>
         </ul>
       </div>
-    </nav>  
+    </nav>
+    <div class="top-row"></div>
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="fan-list-style-image"> 
+    <img src="assets/images/chino.jpg" alt="Chino Moreno">    
+    </div>
+    </div>
+    </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="fan-list-style"> 
+            <div>
+              <h3>Join our Fan Club!</h3>
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp1"
+                  placeholder="Enter email"
+                />
+                <small id="emailHelp1" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-3">
-<div class="div fan-list-style"> 
-<div>
-<h3>Join our Fan Club!</h3>         
-</div>
-<form>
-  <div class="form-group"> 
-    <label for="exampleInputEmail1">Email address:</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-   
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="agree" required>
-    <label class="form-check-label" for="agree">I Agree to Deftones <a href="#" class="hvr-grow">Terms and Conditions</a></label>
-  </div>
-   <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="over-18" required>
-    <label class="form-check-label" for="over-18">I'm over 18</label>
-  </div>
-   <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="updates">
-    <label class="form-check-label" for="updates">Receive updates and promotions periodically</label>
-  </div>
-  <br>
-  <button type="submit" class="btn btn-warning hvr-buzz">Sign me up!</button> 
-</form>
-</div>
-</div>
-</div>
-</div>
-    
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="agree"
+                  required
+                />
+                <label class="form-check-label" for="agree"
+                  >I Agree to Deftones
+                  <a href="#" class="hvr-grow">Terms and Conditions</a></label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="over-18"
+                  required
+                />
+                <label class="form-check-label" for="over-18"
+                  >I'm over 18</label
+                >
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="updates" />
+                <label class="form-check-label" for="updates"
+                  >Receive updates and promotions periodically</label
+                >
+              </div>
+              <br />
+              <button type="submit" class="btn btn-warning hvr-buzz">
+                Sign me up!
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="fan-list-style">
+            <div>
+              <h3>Band Management</h3>
+              <h4>Velvet Hammer Management inc.</h4>
+              <a class="hvr-grow" href="http://www.velvethammer.net"
+                >www.velvethammer.net</a
+              >
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.5695931680766!2d-118.39058868396121!3d34.080546023683766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bea8dfb53285%3A0x842fc4452228d44d!2sVelvet%20Hammer%20Music%20%26%20Management%20Group!5e0!3m2!1sen!2sse!4v1600354534958!5m2!1sen!2sse"
+                  width="475"
+                  height="300"
+                  frameborder="0"
+                  style="border: 0;"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">  
+          <div class="fan-list-style">
+            <h3>Bookings</h3>
+            <div>
+              <label for="start"> Prospective date:</label>    
+
+              <input
+                type="date"
+                id="start"
+                name="trip-start"
+                value="2021-04-13"
+                min="2021-01-01"
+                max="2022-01-01"
+              />
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">Company:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Company Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email-address">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email-address"
+                  aria-describedby="emailHelp"
+                  placeholder="Email"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+
+              <button type="submit" class="btn btn-warning hvr-buzz">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <br /><br /><br /><br />
     <!--- Footer with ideas from resume mini project-->
     <footer class="container-fluid footer-style fixed-bottom">
@@ -137,10 +249,11 @@
               >
             </li>
             <li class="list-inline-item hvr-pulse">
-            <a href="http://www.applemusic.com/deftones" target="_blank">
+              <a href="http://www.applemusic.com/deftones" target="_blank">
                 <i class="fab fa-itunes"></i
                 ><span class="sr-only">Twitter</span></a
-              ></li>
+              >
+            </li>
           </ul>
         </div>
       </div>
