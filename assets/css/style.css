@@ -11,11 +11,6 @@ body {
   background-color: black;
 }
 
-/* #21262e; */
-
-hr {
-  color: #fafafa;
-}
 
 .top-row {
   margin-top: 60px;
@@ -28,6 +23,10 @@ hr {
 }
 
 /* --------------------- Nav ----------------*/
+.bg-dark {
+  background-color: black !important;
+}
+
 .logo-image {
   height: 150px;
   width: 150px;
@@ -45,7 +44,6 @@ nav {
 .nav-list-items {
   font-size: 29px;
   font-family: "Lobster", sans-serif;
-  color: #fafafa;
   text-shadow: 2px 2px black;
 }
 
@@ -54,8 +52,20 @@ nav {
   margin-right: 50px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #73192a;
+}
+
+.navbar-nav > .active > a {
+  color: #dc143c !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #a62139;
+}
+
 nav a {
-  background-color: rgba(52, 58, 64, 0.6);
+  background-color: transparent;
 }
 
 .navbar-toggler {
@@ -76,8 +86,8 @@ footer {
 
 .footer-style {
   font-family: "lobster", sans-serif;
-  background-color: #393e47;
-  color: #fafafa;
+  background-color: black;
+  color: #dc143c;
   height: 80px;
   text-align: center;
 }
@@ -86,23 +96,23 @@ footer {
   font-size: 35px;
   letter-spacing: 20px;
   text-align: center;
-  color: #fafafa;
+  color: #dc143c;
   padding: 10px;
 }
 
 .footer-social-links a {
-  color: #fafafa;
+  color: #dc143c;
   text-decoration: none;
   vertical-align: middle;
 }
 
 .footer-social-links a:hover {
-  color: #0a0a0a;
+  color: #fafafa;
 }
 
 /* --------------------- Home Articles ----------------*/
 .home-articles {
-  background-color: #393e47;
+  background-color: #000000;
   margin: 10px;
   text-align: center;
   font-family: "lobster", sans-serif;
@@ -117,17 +127,24 @@ footer {
   padding-top: 10px;
   font-size: 40px;
   text-decoration: underline;
+  color: #dc143c;
 }
 
 .home-articles tbody {
   color: #f9f9f9;
-  font-family: "Long Cang", cursive; 
+  font-family: "Long Cang", cursive;
   font-size: 20px;
+  margin-top: 10px;
+  
+}
+
+.table-dark {
+background-color: transparent;
 }
 
 .home-articles thead {
   font-weight: 200;
-  color: #fafafa;
+  color: #dc143c;
   text-transform: uppercase;
   font-size: 20px;
   text-decoration: underline;
@@ -142,6 +159,8 @@ footer {
   margin-top: 0px;
   margin-bottom: 10px;
   padding-top: 5px;
+  background-color: #4863a0;
+  border: 1px solid #fafafa;
 }
 
 .merch-image {
@@ -155,6 +174,7 @@ footer {
 .home-articles article h3 {
   font-size: 25px;
   text-decoration: none;
+  color: #dc143c;
 }
 
 .home-articles p {
@@ -169,7 +189,7 @@ footer {
 
 .home-articles article p a {
   text-decoration: none;
-  color: #ffc107;
+  color: #737ca1;
 }
 
 .home-articles .border-ruler-merch {
@@ -183,18 +203,18 @@ footer {
 }
 
 .vinyl-image img {
-    float: left;
-    left: 5px;
-    top: 5px;
-    height: 350px;
-    width: 350px;
-    padding: 5px;
+  float: left;
+  left: 5px;
+  top: 5px;
+  height: 350px;
+  width: 350px;
+  padding: 5px;
 }
 
 /* --------------------- Home Albums ----------------*/
 
 .album-style {
-  background-color: #393e47;
+  background-color: transparent;
   border-bottom: 5px solid #fafafa;
   border-top: 5px solid #fafafa;
   height: 300px;
@@ -258,6 +278,7 @@ footer {
   font-family: "lobster", sans-serif;
   text-align: center;
   font-size: 24px;
+  color: #dc143c;
 }
 .flip-card-back p {
   font-family: "Long Cang", sans-serif;
@@ -267,12 +288,12 @@ footer {
 
 .stream-links-album-cards a {
   font-size: 50px;
-  color: #fafafa;
+  color: #dc143c;
   margin: 5px;
 }
 
 .stream-links-album-cards a:hover {
-  color: #ffc107;
+  color: #fafafa;
 }
 
 /* --------------------- Carosel ----------------*/
@@ -289,12 +310,14 @@ footer {
 }
 
 .carousel-caption {
-  background-color: rgba(52, 58, 64, 0.6);
+  background-color: rgba(52, 58, 64, 0.7);
+  border: 5px solid #fafafa;
+  border-radius: 15%;
 }
 
 .carousel-caption h5 {
   font-family: "lobster", sans-serif;
-  color: #fafafa;
+  color: #dc143c;
   text-transform: uppercase;
   font-size: 40px;
   text-decoration: underline;
@@ -313,16 +336,18 @@ footer {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 25px;
+  background-color: #4863a0;
+  border: 1px solid #fafafa;
 }
 
 .stream-links a {
   font-size: 50px;
-  color: #fafafa;
+  color: #dc143c;
   margin: 5px 50px 5px 50px;
 }
 
 .stream-links a:hover {
-  color: #ffc107;
+  color: #fafafa;
 }
 
 /* -------------------- hover css from https://ianlunn.github.io/Hover/ -----------*/
@@ -363,6 +388,11 @@ footer {
   color: black;
 }
 
+.btn-col .btn {
+  background-color: #4863a0;
+  border: 1px solid #fafafa;
+}
+
 .btn-col {
   text-align: center;
   align-items: center;
@@ -388,7 +418,7 @@ footer {
 /* ------------------           Booking content ---------- */
 
 .fan-list-style {
-  background-color: #393e47;
+  background-color: black;
   margin: 10px;
   text-align: center;
   font-family: "lobster", sans-serif;
@@ -414,6 +444,8 @@ footer {
   font-weight: 800;
   font-size: 25px;
   padding: 5px;
+  background-color: #4863a0;
+  border: 1px solid #fafafa;
 }
 
 .form-check-label {
@@ -423,7 +455,7 @@ footer {
 
 .form-check a {
   text-decoration: none;
-  color: #ffc107;
+  color: #737ca1;
 }
 
 .fan-list-style p {
@@ -435,22 +467,24 @@ footer {
   padding-top: 10px;
   font-size: 40px;
   text-decoration: underline;
+  color: #dc143c;
 }
 
 .fan-list-style h4 {
   font-size: 20px;
+  color: #dc143c;
 }
 
 .fan-list-style a {
   font-family: "Long Cang", sans-serif;
-  color: #ffc107;
+  color: #737ca1;
   text-decoration: none;
   font-size: 25px;
 }
 
 .fan-list-style-image {
-    margin: 10px 0px 20px 0px;
-    width: 100%    
+  margin: 10px 0px 20px 0px;
+  width: 100%;
 }
 
 .fan-list-style-image img {
