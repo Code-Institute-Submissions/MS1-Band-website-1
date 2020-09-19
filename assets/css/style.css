@@ -11,7 +11,6 @@ body {
   background-color: black;
 }
 
-
 .top-row {
   margin-top: 60px;
 }
@@ -135,11 +134,10 @@ footer {
   font-family: "Long Cang", cursive;
   font-size: 20px;
   margin-top: 10px;
-  
 }
 
 .table-dark {
-background-color: transparent;
+  background-color: transparent;
 }
 
 .home-articles thead {
@@ -159,7 +157,7 @@ background-color: transparent;
   margin-top: 0px;
   margin-bottom: 10px;
   padding-top: 5px;
-  background-color:#ea3c53;
+  background-color: #ea3c53;
   border: 1px solid #fafafa;
   border-radius: 12px;
 }
@@ -190,7 +188,7 @@ background-color: transparent;
 
 .home-articles article p a {
   text-decoration: none;
-  color: #933A16;
+  color: #933a16;
 }
 
 .home-articles .border-ruler-merch {
@@ -390,7 +388,7 @@ background-color: transparent;
 }
 
 .btn-col .btn {
-  background-color:#ea3c53;
+  background-color: #ea3c53;
   border: 1px solid #fafafa;
   border-radius: 12px;
 }
@@ -512,4 +510,82 @@ background-color: transparent;
   text-align: center;
   margin: 5px;
   box-shadow: 10px 10px black;
+}
+
+/* --------------------- bio articles ----------------*/
+
+.bio-frame {
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+  font-family: "lobster", sans-serif;
+  color: #fafafa;
+  overflow-wrap: normal;
+  border-top: 5px solid #fafafa;
+  border-bottom: 5px solid #fafafa;
+  text-shadow: 2px 2px black;
+  min-width: 500px;
+  max-width: 550px;
+}
+
+
+.bio-frame h3 {
+  padding-top: 10px;
+  font-size: 40px;
+  text-decoration: underline;
+  color: #dc143c;
+  margin-bottom: 10px;
+}
+
+.bio-frame h4 {
+  padding-top: 10px;
+  font-size: 30px;
+  color: #dc143c;
+  margin-bottom: 0;
+}
+
+.bio-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  /* - code for circle outline from user Heraldmonkey at https://stackoverflow.com/questions/5394116/outline-radius */
+  border: #fafafa solid 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 2px #fafafa inset;
+  float: left;
+  top: -40px;
+  left: -10px;
+}
+
+.bio-accordion {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.bio-accordion .card {
+  background-color: transparent;
+}
+
+.bio-accordion .card-body {
+  font-family: "Long Cang", sans-serif;
+  font-size: 20px;
+}
+
+.bio-frame a {
+  color: #ea3c53;
+  text-decoration: none;
+}
+
+.bio-frame button {
+  color: #ea3c53;
+  text-decoration: none;
+  
+  width: 100%;
+  height: 20%;
+  font-size: 24px;
+}
+
+.bio-frame button:hover {
+  color: #ea3c53;
+  text-decoration: none;
 }
