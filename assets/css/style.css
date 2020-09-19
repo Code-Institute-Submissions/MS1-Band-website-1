@@ -525,7 +525,7 @@ footer {
   border-top: 5px solid #fafafa;
   border-bottom: 5px solid #fafafa;
   text-shadow: 2px 2px black;
-  min-width: 500px;
+  min-width: 400px;
   max-width: 550px;
   
 }
@@ -562,7 +562,9 @@ footer {
 .bio-accordion {
   margin-top: 0;
   margin-bottom: 10px;
+  
 }
+
 
 .bio-accordion .card {
   background-color: transparent;
