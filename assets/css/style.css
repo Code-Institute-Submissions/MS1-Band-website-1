@@ -161,6 +161,7 @@ background-color: transparent;
   padding-top: 5px;
   background-color: #4863a0;
   border: 1px solid #fafafa;
+  border-radius: 12px;
 }
 
 .merch-image {
@@ -312,7 +313,7 @@ background-color: transparent;
 .carousel-caption {
   background-color: rgba(52, 58, 64, 0.7);
   border: 5px solid #fafafa;
-  border-radius: 15%;
+  border-radius: 12px;
 }
 
 .carousel-caption h5 {
@@ -338,6 +339,7 @@ background-color: transparent;
   font-size: 25px;
   background-color: #4863a0;
   border: 1px solid #fafafa;
+  border-radius: 12px;
 }
 
 .stream-links a {
@@ -357,7 +359,6 @@ background-color: transparent;
 /* -- Fluid width video trick from https://css-tricks.com/fluid-width-video/ -- */
 .player-frame {
   margin: 20px;
-  width: 530px;
   background-color: black;
   border-top: 5px solid #fafafa;
   border-bottom: 5px solid #fafafa;
@@ -391,6 +392,7 @@ background-color: transparent;
 .btn-col .btn {
   background-color: #4863a0;
   border: 1px solid #fafafa;
+  border-radius: 12px;
 }
 
 .btn-col {
@@ -446,6 +448,7 @@ background-color: transparent;
   padding: 5px;
   background-color: #4863a0;
   border: 1px solid #fafafa;
+  border-radius: 12px;
 }
 
 .form-check-label {
