@@ -159,7 +159,7 @@ background-color: transparent;
   margin-top: 0px;
   margin-bottom: 10px;
   padding-top: 5px;
-  background-color: #4863a0;
+  background-color:#ea3c53;
   border: 1px solid #fafafa;
   border-radius: 12px;
 }
@@ -190,7 +190,7 @@ background-color: transparent;
 
 .home-articles article p a {
   text-decoration: none;
-  color: #737ca1;
+  color: #933A16;
 }
 
 .home-articles .border-ruler-merch {
@@ -337,7 +337,7 @@ background-color: transparent;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 25px;
-  background-color: #4863a0;
+  background-color: #ea3c53;
   border: 1px solid #fafafa;
   border-radius: 12px;
 }
@@ -390,7 +390,7 @@ background-color: transparent;
 }
 
 .btn-col .btn {
-  background-color: #4863a0;
+  background-color:#ea3c53;
   border: 1px solid #fafafa;
   border-radius: 12px;
 }
@@ -446,7 +446,7 @@ background-color: transparent;
   font-weight: 800;
   font-size: 25px;
   padding: 5px;
-  background-color: #4863a0;
+  background-color: ##ea3c53;
   border: 1px solid #fafafa;
   border-radius: 12px;
 }
