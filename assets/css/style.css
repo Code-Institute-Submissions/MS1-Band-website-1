@@ -77,7 +77,7 @@ nav {
 }
 
 nav a {
-  background-color: transparent;
+  background-color: black;
 }
 
 .navbar-toggler {
@@ -145,7 +145,7 @@ footer {
 .home-articles tbody {
   color: #f9f9f9;
   font-family: "Long Cang", cursive;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 10px;
 }
 
@@ -157,7 +157,7 @@ footer {
   font-weight: 200;
   color: #dc143c;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: underline;
   text-shadow: 1px 1px black;
 }
@@ -191,7 +191,7 @@ footer {
 
 .home-articles p {
   font-family: "long Cang", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .home-articles .border-ruler {
@@ -223,7 +223,7 @@ footer {
   padding: 5px;
 }
 
-/* --------------------- Home Albums ----------------*/
+/* ---------------------  Albums ----------------*/
 
 .album-style {
   background-color: transparent;
@@ -297,7 +297,7 @@ footer {
 .flip-card-back p {
   font-family: "Long Cang", sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .stream-links-album-cards a {
@@ -310,6 +310,16 @@ footer {
   color: #fafafa;
 }
 
+.stream-links-album-cards {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  bottom: 2px;
+  padding: 0;
+}
 /* --------------------- Carosel ----------------*/
 
 .carousel-item {
@@ -340,7 +350,7 @@ footer {
 .carousel-caption p {
   font-family: "Long Cang", sans-serif;
   color: #fafafa;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 25px;
   padding: 10px;
 }
@@ -377,9 +387,7 @@ footer {
   border-bottom: 5px solid #fafafa;
   align-items: center;
   text-align: center;
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
+  height: 400px;
 }
 
 .player-frame iframe {
@@ -466,7 +474,7 @@ footer {
 
 .form-check-label {
   font-family: "Long Cang", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .form-check a {
@@ -476,7 +484,7 @@ footer {
 
 .fan-list-style p {
   font-family: "Long Cang", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .fan-list-style h3 {
@@ -582,7 +590,7 @@ footer {
 
 .bio-accordion .card-body {
   font-family: "Long Cang", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .bio-frame a {
@@ -602,4 +610,13 @@ footer {
 .bio-frame button:hover {
   color: #fafafa;
   text-decoration: none;
+}
+
+/* --------------------- media Queries ----------------*/
+
+@media only screen and (min-width: 1200px) {
+  .player-frame {
+    max-width: 800px;
+    align-items: center;
+  }
 }
