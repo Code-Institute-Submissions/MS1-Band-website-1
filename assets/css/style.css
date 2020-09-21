@@ -132,7 +132,7 @@ footer {
   overflow-wrap: normal;
   border-top: 5px solid #fafafa;
   border-bottom: 5px solid #fafafa;
-  text-shadow: 2px 2px black;
+  
 }
 
 .home-articles h3 {
@@ -165,7 +165,6 @@ footer {
 .home-articles .btn {
   font-family: "Long Cang", sans-serif;
   text-transform: uppercase;
-  font-weight: 800;
   font-size: 25px;
   margin-top: 0px;
   margin-bottom: 10px;
@@ -173,6 +172,12 @@ footer {
   background-color: #ff073a;
   border: 1px solid #fafafa;
   border-radius: 12px;
+}
+
+.home-articles .btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 
 .merch-image {
@@ -353,6 +358,11 @@ footer {
   font-size: 30px;
   line-height: 25px;
   padding: 10px;
+}
+
+.carousel-caption .btn a {
+    text-decoration: none;
+    color: black;
 }
 
 .carousel-caption .btn {
