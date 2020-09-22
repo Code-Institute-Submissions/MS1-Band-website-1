@@ -21,6 +21,19 @@ body {
   display: inline-block;
 }
 
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* ------ Code from https://stackoverflow.com/questions/24322599/why-cannot-change-checkbox-color-whatever-i-do ----*/
+
+input[type="checkbox"],
+input[type="radio"] {
+  filter: grayscale(1);
+}
+
 /* ------- Code from https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll --*/
 
 html {
@@ -131,8 +144,6 @@ footer {
   color: #fafafa;
   overflow-wrap: normal;
   border-top: 5px solid #fafafa;
-  border-bottom: 5px solid #fafafa;
-  
 }
 
 .home-articles h3 {
@@ -175,9 +186,9 @@ footer {
 }
 
 .home-articles .btn a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
 
 .merch-image {
@@ -232,12 +243,18 @@ footer {
 
 .album-style {
   background-color: transparent;
-  border-bottom: 5px solid #fafafa;
-  border-top: 5px solid #fafafa;
   height: 300px;
   margin: 10px;
   align-items: center;
   text-align: center;
+}
+
+.top-border {
+  border-top: 5px solid #fafafa;
+}
+
+.bottom-border {
+  border-bottom: 5px solid #fafafa;
 }
 
 .album-cover-image {
@@ -346,10 +363,9 @@ footer {
 
 .carousel-caption h5 {
   font-family: "lobster", sans-serif;
-  color: #dc143c;
+  color: #ff073a;
   text-transform: uppercase;
   font-size: 40px;
-  text-decoration: underline;
 }
 
 .carousel-caption p {
@@ -361,8 +377,8 @@ footer {
 }
 
 .carousel-caption .btn a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .carousel-caption .btn {
@@ -385,6 +401,16 @@ footer {
   color: #fafafa;
 }
 
+/* ---------  code from https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel ---- */
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff073a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff073a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
 /* -------------------- hover css from https://ianlunn.github.io/Hover/ -----------*/
 
 /* -------------------- Videos -----------*/
@@ -394,7 +420,6 @@ footer {
   margin: 20px;
   background-color: black;
   border-top: 5px solid #fafafa;
-  border-bottom: 5px solid #fafafa;
   align-items: center;
   text-align: center;
   height: 400px;
@@ -402,13 +427,15 @@ footer {
 
 .player-frame iframe {
   display: block;
-  margin: 0 auto;
   padding: 5px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
 }
 
 .btn-col .btn a {
@@ -435,10 +462,9 @@ footer {
 
 .player-frame-spotify {
   margin: 10px 20px 10px 20px;
-  width: 100%;
+  max-width: 600px;
   background-color: black;
   border-top: 5px solid #fafafa;
-  border-bottom: 5px solid #fafafa;
   align-items: center;
   text-align: center;
 }
@@ -446,6 +472,7 @@ footer {
 .player-frame-spotify iframe {
   width: 100%;
   padding: 5px;
+  margin-top: 5px;
 }
 
 /* ------------------           Booking content ---------- */
@@ -458,7 +485,6 @@ footer {
   color: #fafafa;
   overflow-wrap: normal;
   border-top: 5px solid #fafafa;
-  border-bottom: 5px solid #fafafa;
   text-shadow: 2px 2px black;
   min-height: 470px;
 }
@@ -555,7 +581,6 @@ footer {
   color: #fafafa;
   overflow-wrap: normal;
   border-top: 5px solid #fafafa;
-  border-bottom: 5px solid #fafafa;
   text-shadow: 2px 2px black;
   min-width: 400px;
   max-width: 550px;
@@ -622,11 +647,16 @@ footer {
   text-decoration: none;
 }
 
+.btn.focus, .btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+
 /* --------------------- media Queries ----------------*/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
   .player-frame {
-    max-width: 800px;
+    max-width: 480px;
     align-items: center;
   }
 }
