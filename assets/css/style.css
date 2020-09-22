@@ -652,6 +652,20 @@ footer {
     outline: none;
 }
 
+
+.bio-img {
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
 /* --------------------- media Queries ----------------*/
 
 @media only screen and (min-width: 768px) {
