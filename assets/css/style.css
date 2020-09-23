@@ -64,6 +64,7 @@ html::-webkit-scrollbar {
 nav {
   height: 65px;
   border-bottom: 5px solid #fafafa;
+  
 }
 
 .nav-list-items {
@@ -93,10 +94,12 @@ nav a {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+
+
 .navbar-toggler {
-  float: left;
-  top: 50px;
-  left: 20px;
+    background-color:black;
+    outline: 2px solid #fafafa;
+    
 }
 
 /* --------------------- Footer ----------------*/
@@ -347,7 +350,7 @@ footer {
 .carousel-item {
   height: 60vh;
   margin-bottom: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .carousel-item img {
   height: 100%;
@@ -356,7 +359,7 @@ footer {
 }
 
 .carousel-caption {
-  background-color: rgba(52, 58, 64, 0.7);
+  background-color: rgba(52, 58, 64, 0.8);
   border: 5px solid #fafafa;
   border-radius: 12px;
 }
@@ -610,8 +613,8 @@ footer {
   border-radius: 10px;
   box-shadow: 0px 0px 0px 2px #fafafa inset;
   float: left;
-  top: -40px;
-  left: -10px;
+  top: -50px;
+  left: -25px;
   cursor: pointer;
 }
 
