@@ -12,7 +12,7 @@ body {
 }
 
 .top-row {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .container {
@@ -612,6 +612,7 @@ footer {
   float: left;
   top: -40px;
   left: -10px;
+  cursor: pointer;
 }
 
 .bio-accordion {
@@ -652,7 +653,7 @@ footer {
     outline: none;
 }
 
-
+/* ---- Code from https://stackoverflow.com/questions/7273927/image-greyscale-with-css-re-color-on-mouse-over */
 .bio-img {
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
