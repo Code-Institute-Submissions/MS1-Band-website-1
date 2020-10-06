@@ -6,7 +6,7 @@ I also looked at some of my other favourite bands websites for inspiration. I tr
 ## User Experience goals
 My goal with this website was to make it easy for fans of the band to find important information such as live tour information, promotions, merchendise, streaming content and information about the members. The typical user would want to quickly gain access to the bands music or gig information. A returning user may want to purchase merchendise or sign up for the fan mailing list. A user from a venue or promotion company may want to get in touch with band management or book the band for a gig. Therefor I have made 4 destinct pages covering everything the average user may need.
 
-### Website Sections
+## Website Sections
 
 #### Theme and style
 I have used two fonts for my website. Lobster and Long Cang, both Google fonts. Lobster closely resembles the actual font used by the band in the logo image I decided to use and long cang resembles the freehend a lyricist may use while scribbling ideas in a notebook. As is customary with the band I have used a white and black theme however I have used varying shades of red to highlight links, headings and navigation items. I fell it keeps the minimalist theme while cutting through the manotony of black and white. I decided to make the background solid black and leave all the secions transparent with just a white border at the top of each element. I feel it suits the minimalist aesthetic while clearly defining element sections. 
