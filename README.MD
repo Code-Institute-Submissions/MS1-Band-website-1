@@ -60,7 +60,9 @@ For the bio page I created divs in a 2 1 2 formation with the name and instrumen
 **Cloudinary** - Hosting images to make the site load faster.  
 
 ## Media Credits
-
+- Youtube videos - Embedded from Deftones Youtube page.
+- Music - Music embedded from Deftones Spotify page.
+- Album images - All Album art from [Discogs.com](https://www.discogs.com/artist/12210-Deftones)
 
 
 ## Testing
