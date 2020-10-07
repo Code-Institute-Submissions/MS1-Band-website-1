@@ -1,4 +1,8 @@
-# MS1 - User-Centric Frontend Development for Code Institute
+# User-Centric Frontend Development MS1 for Code Institute
+
+## About Me
+My name is kenan Wright, I am currently an enthusiast beginner web developer. I am currently studying software development through Code Institute. I have a passion for music, technology, nature and reptiles. I work 40 hours a week and study 20. 
+
 ##  Band Website for Deftones
 I decided to make a website for my favourite band Deftones. For this project I took inspiration from their existing website but took it in my own direction by creating a custom theme and styling. 
 I also looked at some of my other favourite bands websites for inspiration. I tried to rewrite information on the band where possible and linked to actual articles about the band in the cases that were based on real events. 
@@ -31,6 +35,35 @@ For the contact page I kept it simple and added 3 sections. The first section is
 #### Bio 
 For the bio page I created divs in a 2 1 2 formation with the name and instrument of each member, the images on each section grow and change from greyscale to color when hovered over. I used bootstraps accordion to make a drop down section when the user clicks more info. This drops down and reveals information about the band member as well as a link to their respective wikipedia page. 
 
+## Technologies used
+**Github** - Github was used for storing my code and version control as well as hosting the live site.  
+**Gitpod** - I used Gitpod to code the site as well as push updates to Github.  
+**Python** - Python 3 was used via terminal to run a local webserver to preview the site while coding.  
+**Prettier** Code - I used Beautify to keep my code properly indented and easily readable.  
+**HTML5** - The core of the site was built with HTML version 5.  
+**CSS** - CSS was used to style the website and define fonts and layout.  
+**Bootstrap** - Bootsrap was used to align items and create items such as the Navbar, accordion, carosel, flipcards, forms etc.   
+**Jquery** - Jquery was used to provide functionality to the navbar in mobile view as well as other collapse and animation features.  
+**HVR** - I used hover effects from Ian Lunn at https://ianlunn.github.io/Hover/  
+**Google Maps** - Google maps embed from Google inc.  
+**Spotify** - Music player from Spotify.  
+**Youtube** - Videos embedded from Youtube.  
+**Font Awesome** - Social Media icons from Font Awesome.  
+**Google Chrome** - The website was built and tested in google Chrome.  
+**Auto close tag** - self explanitory.  
+**HTML hint** - for faster coding.  
+**Bootstrap 4 CDN snippet** - faster bootstrap boilerplate.  
+**Cloudinary** - Hosting images to make the site load faster.  
+
+## Testing
+I tested my website in the following ways:
+- Google Chrome Dev Tools for PC and mobile
+- Safari on Mac, PC and iPhone
+- Mozilla Firefox PC
+- Microsoft Edge PC
+- Am I responsive http://ami.responsivedesign.is/
+- Asking friends and family to look and play with the site. 
+- Different resolution screens on my PC and laptop.
 
 
 
