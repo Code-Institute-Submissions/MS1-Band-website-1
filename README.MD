@@ -1,5 +1,9 @@
 # User-Centric Frontend Development MS1 for Code Institute
 
+## Disclaimer
+This website is for educational purpose only and will not be deployed in any form other than for assessment. All rights belong to their respective owners. I do not claim to own any of the multimedia on this website.   
+See Media Credits section for media citations. 
+
 ## About Me
 My name is kenan Wright, I am currently an enthusiast beginner web developer. I am currently studying software development through Code Institute. I have a passion for music, technology, nature and reptiles. I work 40 hours a week and study 20. 
 
@@ -55,6 +59,10 @@ For the bio page I created divs in a 2 1 2 formation with the name and instrumen
 **Bootstrap 4 CDN snippet** - faster bootstrap boilerplate.  
 **Cloudinary** - Hosting images to make the site load faster.  
 
+## Media Credits
+
+
+
 ## Testing
 I tested my website in the following ways:
 - Google Chrome Dev Tools for PC and mobile
@@ -65,7 +73,22 @@ I tested my website in the following ways:
 - Asking friends and family to look and play with the site. 
 - Different resolution screens on my PC and laptop.
 
+## Issues and Troubleshooting
 
+- **Centering the logo in the nav bar** - I strugled with this and used [this](https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items) solution on Stack Overflow, which I customised.
+- **Accordion opening all divs** - Took me a while to get used to making the accordions only expand the Div elements by using the data targets.
+- **Changing default colors in bootstrap nav and having to use !important** - I tried several specificity tricks but couldnt seem to overwrite the bootstrap colors without !important
+- **Centering divs in a row** - I had to read a lot and play with positioning and using justify to center objects.
+- **Responsive videos** - I used [this](https://css-tricks.com/fluid-width-video/) example from CSS-tricks.
+- **Moving the hamburger icon** - I managed to position it how I want it by a lot of googling and trial and error in Chrome Dev tools.
+- **Nav logo positioning in mobile view** - With help from the Slack leads and some testing in Dev tools I managed to resolve it mostly.
+- **Custom Cursors** - I tried many suggestions for getting custom cursors to work however I couldnt get it working and didnt want to waste too much time.
+
+## Features I would like to impliment
+
+- I would like to have a Javascript popup on form submission however I couldn't get it to work as I havent started the JS module and didnt want to impliment a feature that I didnt understand.
+- I would like to build my own merch store with products.
+- I would like to add integration to an online ticket retailer for live shows.
 
 
 
@@ -96,18 +119,8 @@ I tested my website in the following ways:
 
 UPDATE THIS AND FORMAT!
 
-bugs
-centering the logo in the nav bar
-accordion opening all divs
-changing default colors in bootstrap nav and having to use important
-having to use flexbox to center divs in a row
-responsive videos and div sizing
-moving the hamburger icon and positioning
-nav logo jumps down in mobile view
-couldnt get custom pointers to work
 
-other
 explain differences from wireframes to actual site
 reference images
-speak about design choices
+
 
