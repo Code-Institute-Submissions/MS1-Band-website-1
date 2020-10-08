@@ -89,7 +89,6 @@ I tested my website in the following ways:
 
 ## Features I would like to impliment
 
-- I would like to have a Javascript popup on form submission however I couldn't get it to work as I havent started the JS module and didnt want to impliment a feature that I didnt understand.
 - I would like to build my own merch store with products.
 - I would like to add integration to an online ticket retailer for live shows.
 
