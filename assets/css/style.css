@@ -189,6 +189,8 @@ footer {
   background-color: #ff073a;
   border: 1px solid #fafafa;
   border-radius: 12px;
+  color: black; 
+  font-weight: 600;
 }
 
 .home-articles .btn a {

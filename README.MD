@@ -58,6 +58,7 @@ For the bio page I created divs in a 2 1 2 formation with the name and instrumen
 **HTML hint** - for faster coding.  
 **Bootstrap 4 CDN snippet** - faster bootstrap boilerplate.  
 **Cloudinary** - Hosting images to make the site load faster.  
+**Terms and Conditions generator** - Used to generate generic terms and conditions. https://www.termsandconditionsgenerator.com/
 
 ## Media Credits
 - Youtube videos - Embedded from Deftones Youtube page.
