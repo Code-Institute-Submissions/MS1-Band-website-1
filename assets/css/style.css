@@ -27,6 +27,20 @@ body {
   box-shadow: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Lobster" , 'Courier New', Courier, monospace;
+    color: #dc143c;
+}
+
+p {
+    font-family: "Long Cang", 'Courier New', Courier, monospace;
+    color: #fafafa;
+}
+
 /* ------ Code from https://stackoverflow.com/questions/24322599/why-cannot-change-checkbox-color-whatever-i-do ----*/
 
 input[type="checkbox"],
@@ -151,11 +165,11 @@ footer {
   padding-top: 10px;
   font-size: 40px;
   text-decoration: underline;
-  color: #dc143c;
+  
 }
 
 .home-articles tbody {
-  color: #f9f9f9;
+  color: #fafafa;
   font-family: "Long Cang", cursive;
   font-size: 25px;
   margin-top: 10px;
@@ -205,11 +219,10 @@ footer {
 .home-articles article h3 {
   font-size: 25px;
   text-decoration: none;
-  color: #dc143c;
+  
 }
 
 .home-articles p {
-  font-family: "long Cang", sans-serif;
   font-size: 25px;
 }
 
@@ -224,7 +237,6 @@ footer {
 }
 
 .home-articles .border-ruler-merch {
-  font-family: "long Cang", sans-serif;
   font-size: 20px;
   margin-top: 20px;
   padding: 10px;
@@ -306,7 +318,7 @@ footer {
 
 .flip-card-back {
   background-color: black;
-  color: white;
+  color: #fafafa;
   transform: rotateY(180deg);
   outline: 2px solid #fafafa;
   margin: 2px;
@@ -314,13 +326,11 @@ footer {
 }
 
 .flip-card-back h5 {
-  font-family: "lobster", sans-serif;
   text-align: center;
   font-size: 24px;
-  color: #dc143c;
+  
 }
 .flip-card-back p {
-  font-family: "Long Cang", sans-serif;
   text-align: center;
   font-size: 25px;
 }
@@ -365,15 +375,12 @@ footer {
 }
 
 .carousel-caption h5 {
-  font-family: "lobster", sans-serif;
   color: #ff073a;
   text-transform: uppercase;
   font-size: 40px;
 }
 
 .carousel-caption p {
-  font-family: "Long Cang", sans-serif;
-  color: #fafafa;
   font-size: 30px;
   line-height: 25px;
   padding: 10px;
@@ -521,7 +528,6 @@ footer {
 }
 
 .fan-list-style p {
-  font-family: "Long Cang", sans-serif;
   font-size: 25px;
 }
 
@@ -608,14 +614,12 @@ footer {
   padding-top: 10px;
   font-size: 40px;
   text-decoration: underline;
-  color: #dc143c;
   margin-bottom: 10px;
 }
 
 .bio-frame h4 {
   padding-top: 10px;
   font-size: 30px;
-  color: #dc143c;
   margin-bottom: 0;
 }
 
