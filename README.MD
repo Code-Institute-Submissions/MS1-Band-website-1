@@ -63,8 +63,14 @@ For the bio page I created divs in a 2 1 2 formation with the name and instrumen
 ## Media Credits
 - Youtube videos - Embedded from Deftones Youtube page.
 - Music - Music embedded from Deftones Spotify page.
-- Album images - All Album art from [Discogs.com](https://www.discogs.com/artist/12210-Deftones)
 
+### Photo Credits
+- Album images - All Album art from [Discogs.com](https://www.discogs.com/artist/12210-Deftones)
+- "Deftones" by Frank Maddocks from https://consequenceofsound.net/2020/08/deftones-album-title-ohms/
+- "Koi No Yokan" by 13 Whitness from https://www.revolvermag.com/music/how-deftones-pulled-together-after-trauma-and-tragedy-make-koi-no-yokan
+- "Untitled" from https://genreisdead.com/deftones-white-pony-listening-party/
+- "Chino Moreno" by Adam Kissick for NPR for https://www.npr.org/sections/therecord/2016/05/03/476636845/deftones-chino-moreno-on-surviving-evolving-and-gore?t=1602413501414
+- ""
 
 ## Testing
 I tested my website in the following ways:
