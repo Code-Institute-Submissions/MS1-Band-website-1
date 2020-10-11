@@ -52,7 +52,6 @@ html::-webkit-scrollbar {
   background-color: black !important;
 }
 
-
 .logo-image {
   height: 150px;
   width: 150px;
@@ -60,7 +59,6 @@ html::-webkit-scrollbar {
   border: #fafafa solid 5px;
   border-radius: 10px;
   box-shadow: 0px 0px 0px 2px #fafafa inset;
-  
 }
 
 nav {
@@ -73,15 +71,12 @@ nav {
   font-size: 29px;
   font-family: "Lobster", sans-serif;
   text-shadow: 2px 2px black;
-  
 }
 
 .deftones-nav-items {
   margin-left: 50px;
   margin-right: 50px;
 }
-
-
 
 .navbar-dark .navbar-nav .nav-link {
   color: #73192a;
@@ -189,7 +184,7 @@ footer {
   background-color: #ff073a;
   border: 1px solid #fafafa;
   border-radius: 12px;
-  color: black; 
+  color: black;
   font-weight: 600;
 }
 
@@ -482,9 +477,7 @@ footer {
   margin-top: 5px;
 }
 
-
-
-/* ------------------           Booking content ---------- */
+/* ------------------           contact content ---------- */
 
 .fan-list-style {
   background-color: black;
@@ -561,6 +554,22 @@ footer {
   width: 100%;
   height: auto;
 }
+
+.terms-modal {
+  margin-bottom: 0px;
+  padding: 0px 15px 0px;
+  height: 600px;
+  text-align: justify;
+  position: absolute;
+  top: 200px;
+ 
+}
+
+.terms-modal p {
+  
+  overflow-y: hidden;
+}
+
 /* ---------- Responsive google maps code from https://blog.duda.co/responsive-google-maps-for-your-website --*/
 .map-responsive {
   overflow: hidden;
@@ -667,7 +676,7 @@ footer {
 .bio-img {
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
- 
+
   -webkit-filter: grayscale(1);
   /* Google Chrome & Safari 6+ */
 }
@@ -685,16 +694,13 @@ img:hover {
   }
 }
 
-@media screen and (max-width:991px){
-    .logo-image-container {
-        position: absolute;
-        top: -55px;
-        left: 45vw;
-
-    }
-    .dropdown-menu-custom {
-        margin-top: 70px;
-    }
+@media screen and (max-width: 991px) {
+  .logo-image-container {
+    position: absolute;
+    top: -55px;
+    left: 45vw;
+  }
+  .dropdown-menu-custom {
+    margin-top: 70px;
+  }
 }
-
-
