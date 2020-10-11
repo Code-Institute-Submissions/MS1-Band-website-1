@@ -9,7 +9,8 @@ My name is Kenan Wright, I am currently an enthusiast beginner web developer. I 
 
 ##  Band Website for Deftones
 I decided to make a website for my favourite band Deftones. For this project I took inspiration from their existing website but took it in my own direction by creating a custom theme and styling. 
-I also looked at some of my other favourite bands websites for inspiration. I tried to rewrite information on the band where possible and linked to actual articles about the band in the cases that were based on real events. 
+I also looked at some of my other favourite bands websites for inspiration. I tried to rewrite information on the band where possible and linked to actual articles about the band in the cases that were based on real events.   
+Live Example [Here](https://kdoggg666.github.io/MS1-Band-website/)
 
 ## User Experience Goals
 My goal with this website was to make it easy for fans of the band to find important information such as live tour information, promotions, merchendise, streaming content and information about the members. The typical user would want to quickly gain access to the bands music or gig information. A returning user may want to purchase merchendise or sign up for the fan mailing list. A user from a venue or promotion company may want to get in touch with band management or book the band for a gig. Therefor I have made 4 destinct pages covering everything the average user may need.
@@ -59,6 +60,25 @@ For the bio page I created divs in a 2 1 2 formation with the name and instrumen
 **Bootstrap 4 CDN snippet** - faster bootstrap boilerplate.  
 **Cloudinary** - Hosting images to make the site load faster.  
 **Terms and Conditions generator** - Used to generate generic terms and conditions. https://www.termsandconditionsgenerator.com/
+
+## Code Credits
+- **Styling Checkbox** on forms https://stackoverflow.com/questions/24322599/why-cannot-change-checkbox-color-whatever-i-do
+- **Hiding scrollbars while preserving functionality** https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll
+- **Circle Outline for logo** from user Heraldmonkey at https://stackoverflow.com/questions/5394116/outline-radius
+- **Centered Logo Nav Bar**  from user Zim on Stack overflow https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items
+- **Flip-cards** example from w3 schools
+- **Carosel icon custom colors** from https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
+- **Hover Animations** from https://ianlunn.github.io/Hover/
+- **Responsive videa width** from https://css-tricks.com/fluid-width-video/
+- **Responsive google maps** from https://blog.duda.co/responsive-google-maps-for-your-website
+- **Color images on hover** from https://stackoverflow.com/questions/7273927/image-greyscale-with-css-re-color-on-mouse-over
+- **Footer** - Inspired and customised from Resume project
+- **JS Alert** from https://www.w3schools.com/js/js_popup.asp
+- **Bootstrap Modal** from Bootstrap Documentation
+- **Carosel** - from Bootstrap Documentation
+- **Accordion** - from Bootstrap Documentation
+
+
 
 ## Media Credits
 - Youtube videos - Embedded from Deftones Youtube page.
@@ -147,10 +167,5 @@ HTML and CSS validated at https://jigsaw.w3.org/css-validator/validator and http
 
 
 
-UPDATE THIS AND FORMAT!
-
-
-explain differences from wireframes to actual site
-reference images
 
 
