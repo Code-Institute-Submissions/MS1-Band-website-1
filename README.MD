@@ -146,7 +146,11 @@ HTML and CSS validated at https://jigsaw.w3.org/css-validator/validator and http
 ![Contact.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416998/images/Wireframes/Mobile_bookings.html.png)
 ![Bio.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416998/images/Wireframes/Mobile_bio.html.png)
 
+## Conclusion
+Thank you for reading the accompanying documentation for my first milestone project. I feel I have learned a great deal about web design and myself through this process. I have felt challenged and proud to have overcome most of the setbacks I have faced during this project. I feel I have given this website my best and will continue to learn and build my knowledge as a developer. I look forward to the second milestone project with excitement and a thirst for knowledge. 
 
+## Collabirations and Contact
+For any questions reguarding the site, my work or collaborations please feel free to email me at kenanwright@gmail.com.
 
 
 
