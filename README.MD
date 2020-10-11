@@ -70,7 +70,15 @@ For the bio page I created divs in a 2 1 2 formation with the name and instrumen
 - "Koi No Yokan" by 13 Whitness from https://www.revolvermag.com/music/how-deftones-pulled-together-after-trauma-and-tragedy-make-koi-no-yokan
 - "Untitled" from https://genreisdead.com/deftones-white-pony-listening-party/
 - "Chino Moreno" by Adam Kissick for NPR for https://www.npr.org/sections/therecord/2016/05/03/476636845/deftones-chino-moreno-on-surviving-evolving-and-gore?t=1602413501414
-- ""
+- "Merch" from https://www.razorwisconsin.com/2020/03/27/deftones-sell-new-zealand-tour-merch-online-to-support-road-crew-after-being-forced-to-cancel-tour/
+- "Vinyl" by Charlosr2 from https://www.reddit.com/r/deftones/comments/imqmql/deftones_colored_vinyl_collection_waiting_for_ohms/
+- "OHMS" (cropped and edited by me) from https://guitar.com/news/music-news/deftones-new-album/
+- "Deftones Skull" used as Logo from https://www.pinterest.com/pin/572801646353979122/
+- "Chino Singing" from https://www.pinterest.com/pin/586312445211723916/
+- "Stephen Carpenter" from https://equipboard.com/pros/stephen-carpenter/esp-5-string-bass
+- "Abe Cunningham" from https://drummagazine.com/abe-cunninghams-ongoing-deftones-saga/
+- "Frank Delgato" from https://alchetron.com/Frank-Delgado-(American-musician)
+- "Sergio Vega" from https://www.musicradar.com/news/deftones-bassist-sergio-vega-the-whammy-bar-shouldnt-just-be-relegated-to-guitar
 
 ## Testing
 I tested my website in the following ways:
