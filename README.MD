@@ -5,13 +5,13 @@ This website is for educational purpose only and will not be deployed in any for
 See Media Credits section for media citations. 
 
 ## About Me
-My name is kenan Wright, I am currently an enthusiast beginner web developer. I am currently studying software development through Code Institute. I have a passion for music, technology, nature and reptiles. I work 40 hours a week and study 20. 
+My name is Kenan Wright, I am currently an enthusiast beginner web developer. I am currently studying software development through Code Institute. I have a passion for music, technology, nature and reptiles. I work 40 hours a week and study 20. 
 
 ##  Band Website for Deftones
 I decided to make a website for my favourite band Deftones. For this project I took inspiration from their existing website but took it in my own direction by creating a custom theme and styling. 
 I also looked at some of my other favourite bands websites for inspiration. I tried to rewrite information on the band where possible and linked to actual articles about the band in the cases that were based on real events. 
 
-## User Experience goals
+## User Experience Goals
 My goal with this website was to make it easy for fans of the band to find important information such as live tour information, promotions, merchendise, streaming content and information about the members. The typical user would want to quickly gain access to the bands music or gig information. A returning user may want to purchase merchendise or sign up for the fan mailing list. A user from a venue or promotion company may want to get in touch with band management or book the band for a gig. Therefor I have made 4 destinct pages covering everything the average user may need.
 
 ## Website Sections
@@ -19,7 +19,7 @@ My goal with this website was to make it easy for fans of the band to find impor
 #### Theme and style
 I have used two fonts for my website. Lobster and Long Cang, both Google fonts. Lobster closely resembles the actual font used by the band in the logo image I decided to use and long cang resembles the freehend a lyricist may use while scribbling ideas in a notebook. As is customary with the band I have used a white and black theme however I have used varying shades of red to highlight links, headings and navigation items. I fell it keeps the minimalist theme while cutting through the manotony of black and white. I decided to make the background solid black and leave all the secions transparent with just a white border at the top of each element. I feel it suits the minimalist aesthetic while clearly defining element sections. 
 
-#### Navigation bar
+#### Navigation Bar
 I decided to not use the standard bootstrap navbar layout opting instead to have a circular band logo center and have the nav links on either side. I fell this seperates my site from the standard bootsrap navbar look. I also applied custom colors, animations and fonts.
 
 #### Footer
@@ -39,7 +39,7 @@ For the contact page I kept it simple and added 3 sections. The first section is
 #### Bio 
 For the bio page I created divs in a 2 1 2 formation with the name and instrument of each member, the images on each section grow and change from greyscale to color when hovered over. I used bootstraps accordion to make a drop down section when the user clicks more info. This drops down and reveals information about the band member as well as a link to their respective wikipedia page. 
 
-## Technologies used
+## Technologies Used
 **Github** - Github was used for storing my code and version control as well as hosting the live site.  
 **Gitpod** - I used Gitpod to code the site as well as push updates to Github.  
 **Python** - Python 3 was used via terminal to run a local webserver to preview the site while coding.  
@@ -90,6 +90,12 @@ I tested my website in the following ways:
 - Asking friends and family to look and play with the site. 
 - Different resolution screens on my PC and laptop.
 
+## Validation
+
+![CSS level 3 + SVG](http://jigsaw.w3.org/css-validator/images/vcss)  
+HTML and CSS validated at https://jigsaw.w3.org/css-validator/validator and https://validator.w3.org/nu/ with no errors.
+
+
 ## Issues and Troubleshooting
 
 - **Centering the logo in the nav bar** - I strugled with this and used [this](https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items) solution on Stack Overflow, which I customised.
@@ -106,9 +112,17 @@ I tested my website in the following ways:
 - I would like to build my own merch store with products.
 - I would like to add integration to an online ticket retailer for live shows.
 
+## Wireframes - Desktop
+![Index.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416949/images/Wireframes/Index.html_web.png)
+![Media.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416949/images/Wireframes/Media_web.png)
+![Contact.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416949/images/Wireframes/Bookings_web.png)
+![Bio.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416949/images/Wireframes/bio.html_web.png) 
 
-
-
+## Wireframes - Mobile
+![Index.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416998/images/Wireframes/Mobile_index.html.png)
+![Media.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416999/images/Wireframes/Mobile_Media.html.png)
+![Contact.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416998/images/Wireframes/Mobile_bookings.html.png)
+![Bio.html](https://res.cloudinary.com/dyxe4g62g/image/upload/v1602416998/images/Wireframes/Mobile_bio.html.png)
 
 
 
