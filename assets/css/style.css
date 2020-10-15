@@ -707,3 +707,10 @@ img:hover {
     margin-top: 70px;
   }
 }
+
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
