@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deftones</title>
-    <link rel="icon" 
-      type="image/png" 
-      href="https://res.cloudinary.com/dyxe4g62g/image/upload/v1601995276/images/favicon.jpg">  
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/dyxe4g62g/image/upload/v1601995276/images/favicon.jpg"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -19,7 +21,7 @@
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />       
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <!-- hover css from https://ianlunn.github.io/Hover/ -->
     <link
       rel="stylesheet"
@@ -28,42 +30,47 @@
       crossorigin="anonymous"
     />
     <script src="main.js" type="text/javascript"></script>
-    
   </head>
 
   <body>
     <!--Navbar *Code from user Zim on Stack overflow https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top no-gutters">   
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top no-gutters"
+    >
       <button
         class="navbar-toggler hamburger-icon"
         type="button"
         data-toggle="collapse"
         data-target=".dual-collapse2"
       >
-        <span class="navbar-toggler-icon"></span>      
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div
         class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-1 order-lg-0"
       >
-        <ul class="navbar-nav ml-auto text-center nav-list-items dropdown-menu-custom">         
+        <ul
+          class="navbar-nav ml-auto text-center nav-list-items dropdown-menu-custom"
+        >
           <li class="nav-item active deftones-nav-items">
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item deftones-nav-items">
-            <a class="nav-link" href="media.html">Media</a>  
+            <a class="nav-link" href="media.html">Media</a>
           </li>
         </ul>
       </div>
-      <div class="logo-image-container mx-auto my-2 order-0 order-md-0 order-lg-1 justify-content-center">        
-           <a href="index.html">
+      <div
+        class="logo-image-container mx-auto my-2 order-0 order-md-0 order-lg-1 justify-content-center"
+      >
+        <a href="index.html">
           <img
             src="https://res.cloudinary.com/dyxe4g62g/image/upload/v1601995276/images/logo.jpg"
             class="rounded-circle logo-image hvr-grow"
             alt="Deftones Logo"
           />
-          </a>
-        </div>
+        </a>
+      </div>
       <div
         class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2 order-lg-2"
       >
@@ -72,14 +79,14 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item deftones-nav-items">
-            <a class="nav-link" href="bio.html">Bio</a> 
+            <a class="nav-link" href="bio.html">Bio</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <!--- Carosel from bootstrap documentation -->         
-    
+    <!--- Carosel from bootstrap documentation -->
+
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
@@ -91,7 +98,7 @@
           data-slide-to="0"
           class="active"
         ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>   
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
@@ -109,9 +116,10 @@
               dates. <br />
               Sign up to our mailing list for updates!
             </p>
-            <div class="btn btn-warning hvr-grow">   
-              <a href="contact.html">Sign Up!</a>
-            </div>
+            <button class="btn btn-warning hvr-grow" data-toggle="modal"
+      data-target="#exampleModal"> 
+              SIGN UP!
+            </button>
           </div>
         </div>
         <div class="carousel-item">
@@ -186,8 +194,8 @@
         <div class="col home-articles">
           <div>
             <h3>Upcoming Gigs:</h3>
-            <table class="table-condensed table-borderless table-dark">       
-              <thead>  
+            <table class="table-condensed table-borderless table-dark">
+              <thead>
                 <tr>
                   <th scope="col">Date:</th>
                   <th scope="col">Venue:</th>
@@ -196,7 +204,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">13/4/2021</th> 
+                  <th scope="row">13/4/2021</th>
                   <td>Pustervik</td>
                   <td>Gothenburg SE</td>
                 </tr>
@@ -239,9 +247,9 @@
           <article>
             <h3>Interview with Rolling Stone</h3>
             <p>
-              Recently Rolling Stone sat down with Chino and Abe to discuss
-              the latest single "OHMS" and the cancellation of the 2020 tour due
-              to corona.
+              Recently Rolling Stone sat down with Chino and Abe to discuss the
+              latest single "OHMS" and the cancellation of the 2020 tour due to
+              corona.
               <span>
                 <br />
                 Click
@@ -300,7 +308,9 @@
             </p>
           </article>
           <div class="btn btn-warning hvr-buzz">
-            <a href="https://deftones.merchdirect.com/" target="_blank">Official Merch Store!</a>  
+            <a href="https://deftones.merchdirect.com/" target="_blank"
+              >Official Merch Store!</a
+            >
             <span class="sr-only">Official Merch Store!</span>
           </div>
         </div>
@@ -322,9 +332,128 @@
               get your copy for only $399.99!
             </p>
             <div class="btn hvr-buzz">
-            <a href="https://deftones.merchdirect.com/" target="_blank">Reserve Yours Now!</a>  
-            <span class="sr-only">Reserve Yours Now!</span>
+              <a href="https://deftones.merchdirect.com/" target="_blank"
+                >Reserve Yours Now!</a
+              >
+              <span class="sr-only">Reserve Yours Now!</span>
+            </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <!--         Signup Modal                 -->
+
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      
+    >
+      Launch demo modal
+    </button>
+
+    <!-- Modal --> 
+    <div
+      class="modal fade terms-modal"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+             <div class="fan-list-style">
+            <div>
+              <h3>Join our Fan Club!</h3>
+            </div>
+            <form onsubmit="alert('Thank You, We will be in touch soon!');">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address:</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp1"
+                  placeholder="Enter email"
+                  required
+                />
+                <small id="emailHelp1" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  name="agree_t&c"
+                  id="agree"
+                  required
+                />
+                <label class="form-check-label" for="agree"
+                  >I Agree to Deftones
+                  <a
+                    href="#"
+                    class="hvr-grow"
+                    data-toggle="modal"
+                    data-target="#termsModal"
+                    >Terms and Conditions</a
+                  ></label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  name="agree_over_18"
+                  id="over-18"
+                  required
+                />
+                <label class="form-check-label" for="over-18"
+                  >I'm over 18</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="updates"
+                  name="recoive_updates"
+                />
+                <label class="form-check-label" for="updates"
+                  >Receive updates and promotions periodically</label
+                >
+              </div>
+              <br />
+              <button type="submit" class="btn btn-warning hvr-buzz">  
+                Sign me up!
+              </button>
+            </form>
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              CLOSE
+            </button> 
+          
           </div>
         </div>
       </div>
