@@ -13,6 +13,7 @@ body {
 
 .top-row {
   margin-top: 40px;
+  background-color: transparent;
 }
 
 .container {
@@ -113,6 +114,8 @@ nav a {
   background-image: url();
 }
 
+
+
 /* --------------------- Footer ----------------*/
 .clear {
   clear: both;
@@ -151,7 +154,7 @@ footer {
 
 /* --------------------- Home Articles ----------------*/
 .home-articles {
-  background-color: #000000;
+  background-color: transparent;
   margin: 10px;
   text-align: center;
   font-family: "lobster", sans-serif;
@@ -427,7 +430,7 @@ footer {
 /* -- Fluid width video trick from https://css-tricks.com/fluid-width-video/ -- */
 .player-frame {
   margin: 20px;
-  background-color: black;
+  background-color: transparent;
   border-top: 5px solid #fafafa;
   align-items: center;
   text-align: center;
@@ -464,14 +467,14 @@ footer {
 .btn-col {
   text-align: center;
   align-items: center;
-  background-color: black;
+  background-color: transparent;
   height: 60px;
 }
 
 .player-frame-spotify {
   margin: 10px 20px 10px 20px;
   max-width: 600px;
-  background-color: black;
+  background-color: transparent;
   border-top: 5px solid #fafafa;
   align-items: center;
   text-align: center;
@@ -486,7 +489,7 @@ footer {
 /* ------------------           contact content ---------- */
 
 .fan-list-style {
-  background-color: black;
+  background-color: transparent;
   margin: 10px;
   text-align: center;
   font-family: "lobster", sans-serif;
@@ -597,7 +600,7 @@ footer {
 /* --------------------- bio articles ----------------*/
 
 .bio-frame {
-  background-color: black;
+  background-color: transparent;
   margin: 40px 20px 20px 20px;
   text-align: center;
   font-family: "lobster", sans-serif;
@@ -690,7 +693,7 @@ img:hover {
 
 /* --------------------- media Queries ----------------*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .player-frame {
     max-width: 480px;
     align-items: center;
@@ -701,16 +704,24 @@ img:hover {
   .logo-image-container {
     position: absolute;
     top: -55px;
-    left: 45vw;
+    left: 40vw;
   }
+
+}
+
+@media screen and (max-width: 500px) {
+ .logo-image-container {
+    position: absolute;
+    top: -55px;
+    left: 32vw;
+}
   .dropdown-menu-custom {
     margin-top: 70px;
   }
-}
 
 @media screen and (prefers-color-scheme: light) {
   body {
-    background-color: white;
+    background-color: #303030;
     color: black;
   }
 }

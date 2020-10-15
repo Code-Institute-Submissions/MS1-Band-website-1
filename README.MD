@@ -128,7 +128,6 @@ HTML and CSS validated at https://jigsaw.w3.org/css-validator/validator and http
 - **Moving the hamburger icon** - I managed to position it how I want it by a lot of googling and trial and error in Chrome Dev tools.
 - **Nav logo positioning in mobile view** - With help from the Slack leads and some testing in Dev tools I managed to resolve it mostly.
 - **Custom Cursors** - I tried many suggestions for getting custom cursors to work however I couldnt get it working and didnt want to waste too much time.
-- **Centering the Logo in mobile view** - If I had more time I would like to have the logo exactly center in mobile view. 
 ## Features I would like to impliment
 
 - I would like to build my own merch store with products.
