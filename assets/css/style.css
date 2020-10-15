@@ -161,6 +161,7 @@ footer {
   color: #fafafa;
   overflow-wrap: normal;
   border-top: 5px solid #fafafa;
+  align-content: center;
 }
 
 .home-articles h3 {
@@ -177,13 +178,10 @@ footer {
   margin-top: 10px;
   
 }
-.home-articles .table {
-    padding: 0;
-    margin: 0;
-}
 
 .table-dark {
   background-color: transparent;
+
 }
 
 .home-articles thead {
