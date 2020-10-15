@@ -175,6 +175,11 @@ footer {
   font-family: "Long Cang", cursive;
   font-size: 25px;
   margin-top: 10px;
+  
+}
+.home-articles .table {
+    padding: 0;
+    margin: 0;
 }
 
 .table-dark {
@@ -570,6 +575,7 @@ footer {
   text-align: justify;
   position: absolute;
   top: 200px;
+  background-color: black;
  
 }
 
@@ -719,6 +725,7 @@ img:hover {
     margin-top: 70px;
   }
 
+}
 @media screen and (prefers-color-scheme: light) {
   body {
     background-color: #303030;
