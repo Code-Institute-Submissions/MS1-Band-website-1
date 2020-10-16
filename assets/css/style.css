@@ -267,8 +267,6 @@ footer {
   border-top: 5px solid #fafafa;
 }
 
-
-
 .album-cover-image {
   height: 100%;
   width: 100%;
@@ -737,36 +735,36 @@ img:hover {
     color: #eb333c;
   }
   p {
-      color: #EEE7DF;
+    color: #eee7df;
   }
   .home-articles {
-      border-top: 5px solid #EEE7DF;
+    border-top: 5px solid #eee7df;
   }
   .top-border {
-  border-top: 5px solid #EEE7DF;
+    border-top: 5px solid #eee7df;
   }
-.bio-frame {
-    border-top: 5px solid #EEE7DF;
+  .bio-frame {
+    border-top: 5px solid #eee7df;
   }
-footer {
-  border-top: 5px solid #EEE7DF;
+  footer {
+    border-top: 5px solid #eee7df;
   }
-.footer-style {
-  background-color: #313638;
-  }
-.bg-dark {
-  background-color: #313638 !important;
-}
-nav a {
-  background-color: #313638;
-}
-.logo-image {
-    border: #EEE7DF solid 5px;
-}
-nav {
-    border-bottom: 5px solid #EEE7DF;
-}
-.terms-modal .modal-content {
+  .footer-style {
     background-color: #313638;
-}
+  }
+  .bg-dark {
+    background-color: #313638 !important;
+  }
+  nav a {
+    background-color: #313638;
+  }
+  .logo-image {
+    border: #eee7df solid 5px;
+  }
+  nav {
+    border-bottom: 5px solid #eee7df;
+  }
+  .terms-modal .modal-content {
+    background-color: #313638;
+  }
 }
