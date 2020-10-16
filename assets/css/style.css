@@ -33,13 +33,13 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "Lobster" , 'Courier New', Courier, monospace;
-    color: #dc143c;
+  font-family: "Lobster", "Courier New", Courier, monospace;
+  color: #dc143c;
 }
 
 p {
-    font-family: "Long Cang", 'Courier New', Courier, monospace;
-    color: #fafafa;
+  font-family: "Long Cang", "Courier New", Courier, monospace;
+  color: #fafafa;
 }
 
 /* ------ Code from https://stackoverflow.com/questions/24322599/why-cannot-change-checkbox-color-whatever-i-do ----*/
@@ -114,8 +114,6 @@ nav a {
   background-image: url();
 }
 
-
-
 /* --------------------- Footer ----------------*/
 .clear {
   clear: both;
@@ -168,7 +166,6 @@ footer {
   padding-top: 10px;
   font-size: 40px;
   text-decoration: underline;
-  
 }
 
 .home-articles tbody {
@@ -176,12 +173,10 @@ footer {
   font-family: "Long Cang", cursive;
   font-size: 25px;
   margin-top: 10px;
-  
 }
 
 .table-dark {
   background-color: transparent;
-
 }
 
 .home-articles thead {
@@ -224,7 +219,6 @@ footer {
 .home-articles article h3 {
   font-size: 25px;
   text-decoration: none;
-  
 }
 
 .home-articles p {
@@ -273,9 +267,7 @@ footer {
   border-top: 5px solid #fafafa;
 }
 
-.bottom-border {
-  border-bottom: 5px solid #fafafa;
-}
+
 
 .album-cover-image {
   height: 100%;
@@ -333,7 +325,6 @@ footer {
 .flip-card-back h5 {
   text-align: center;
   font-size: 24px;
-  
 }
 .flip-card-back p {
   text-align: center;
@@ -573,11 +564,9 @@ footer {
   text-align: justify;
   position: absolute;
   top: 200px;
-  
- 
 }
 .terms-modal .modal-content {
-    background-color: black;
+  background-color: black;
 }
 
 .terms-modal .modal-footer .btn {
@@ -589,9 +578,7 @@ footer {
   font-weight: 600;
 }
 
-
 .terms-modal p {
-  
   overflow-y: hidden;
 }
 
@@ -723,23 +710,63 @@ img:hover {
     top: -55px;
     left: 40vw;
   }
-
 }
 
 @media screen and (max-width: 500px) {
- .logo-image-container {
+  .logo-image-container {
     position: absolute;
     top: -55px;
     left: 32vw;
-}
+  }
   .dropdown-menu-custom {
     margin-top: 70px;
   }
-
 }
+
+/* ---------- Dark and light mode ---------*/
+
 @media screen and (prefers-color-scheme: light) {
   body {
-    background-color: #303030;
-    color: black;
+    background-color: #313638;
   }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #eb333c;
+  }
+  p {
+      color: #EEE7DF;
+  }
+  .home-articles {
+      border-top: 5px solid #EEE7DF;
+  }
+  .top-border {
+  border-top: 5px solid #EEE7DF;
+  }
+.bio-frame {
+    border-top: 5px solid #EEE7DF;
+  }
+footer {
+  border-top: 5px solid #EEE7DF;
+  }
+.footer-style {
+  background-color: #313638;
+  }
+.bg-dark {
+  background-color: #313638 !important;
+}
+nav a {
+  background-color: #313638;
+}
+.logo-image {
+    border: #EEE7DF solid 5px;
+}
+nav {
+    border-bottom: 5px solid #EEE7DF;
+}
+.terms-modal .modal-content {
+    background-color: #313638;
+}
 }
